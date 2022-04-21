@@ -1960,6 +1960,11 @@ footer .copyright span {
         margin-left: 634px;
     }
 
+    .tombol-panah {
+        transform: translate(0px, -90%);
+    }
+
+
     /* pantau kinerja section */
 
     #open-close .pantau-kinerja-judul h1{

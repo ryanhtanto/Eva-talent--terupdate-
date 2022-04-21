@@ -40,9 +40,20 @@ $(document).ready(function () {
   gsap.from("#section1-1 .kart", { opacity: 0, delay: 1.2, duration: 0.5 });
 });
 
+
 // parallax effect
 
 // random 0
+gsap.to("#section1-1 .random0 .panahlingkaran", {
+  yPercent: -1500,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random0",
+    pin:"#section1-1 .random0 .row",
+    scrub: 0.01,
+  }, 
+});
+
 gsap.to("#section1-1 .random0 .kart", {
   yPercent: -400,
   ease: "none",
@@ -99,6 +110,17 @@ gsap.to("#section1-1 .random0 .solusibtn", {
 });
 
 // random 1
+
+gsap.to("#section1-1 .random1 .panahlingkaran", {
+  yPercent: -1500,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random1",
+    pin:"#section1-1 .random1 .row",
+    scrub: 0.01,
+  }, 
+});
+
 gsap.to("#section1-1 .random1 .kart", {
   yPercent: -400,
   ease: "none",
@@ -155,6 +177,16 @@ gsap.to("#section1-1 .random1 .solusibtn", {
 });
 
 // random 2
+gsap.to("#section1-1 .random2 .panahlingkaran", {
+  yPercent: -1500,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random2",
+    pin:"#section1-1 .random2 .row",
+    scrub: 0.01,
+  }, 
+});
+
 gsap.to("#section1-1 .random2 .kart", {
   yPercent: -400,
   ease: "none",
@@ -209,6 +241,9 @@ gsap.to("#section1-1 .random2 .solusibtn", {
     scrub:0.01,
   }, 
 });
+
+
+
 
 /*section pelacakan*/
 pelacakan = gsap.timeline({
