@@ -1536,8 +1536,8 @@ footer .copyright span {
     z-index: 3;
     background-color: var(--warna1);
     width: 520px;
-    margin-bottom: -20px;
-    height: 600px;
+    bottom: 350px;
+    height: 620px;
 }
 
 #ai-suggestion-new .mask8{
