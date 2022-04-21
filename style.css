@@ -197,6 +197,10 @@ h4{
 
 /*scope of evaluation section*/
 /* Section 1-1 */
+.tombol-panah {
+    transform: translate(0px, -70%);
+}
+
 #section1-1 {
     background-color: var(--warna5);
     position: relative;
@@ -2074,7 +2078,7 @@ footer .copyright span {
     }
 
     .tombol-panah {
-        transform: translate(0px, -90%);
+        transform: translate(0px, -70%);
     }
 
 
