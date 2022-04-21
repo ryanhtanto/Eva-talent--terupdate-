@@ -67,7 +67,7 @@ h4{
 }
 
 #nav .container-lg {
-    background-color: var(--warna5);
+    background-color: #e2e8f0d2;
     padding: 10px;
     margin-top: 0;
     transition: 1s;
@@ -79,7 +79,7 @@ h4{
     color: #2d3748 !important ;
 }
 #nav .navbar-brand img{
-    width: 110px ;
+    width: 120px ;
 }
 #nav .nav-item {
     margin: 0px 35px;
@@ -93,15 +93,17 @@ h4{
     color: #ffa600 !important;
 }
 #nav .btn-demo {
-    background-color: var(--warna2);
-    border-radius: 8px;
+    background-color: var(--warna4);
+    border-radius: 12px;
     font-weight: 600;
-    color: #4a5568;
+    color: #F7FAFC;
     transition: 0.5s;
+    padding: 16px 32px 16px 32px;
+    margin-left: 20px;
 }
   
 #nav .btn-demo:hover {
-    background-color: var(--warna4);
+    background-color: #ffa600 !important;
     color: #fff;
 }
   
@@ -869,10 +871,6 @@ h4{
     box-shadow: #edf2f7 0px 10px;
 }
 
-#pelacakan .mt-90{
-    margin-top: 90px;
-}
-
 #pelacakan .pelacakan-judul h1{
     font-size: 3rem;
 }
@@ -944,28 +942,13 @@ h4{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom: 0px !important;
-    padding-top: 30px;
+    padding-top: 5px;
 }
 #quadrant .card-body{
     background-color: #e2e8f0 !important;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding-bottom: 0px !important;
-}
-
-#quadrant .tab-1{
-    margin-left: 50px !important;
-    border-radius: 50%;
-    width: 25px !important;
-    height: 25px !important;
-    padding-top: 2px !important;
-    padding-bottom: 2px !important;
-    padding-left: 8px !important;
-    padding-right: 8px !important;
-
-    background: #0dbb82;
-    border: 1px solid #0dbb82;
-    color: white;
 }
 
 #quadrant .card-hijau img{
@@ -979,51 +962,6 @@ h4{
 
 #quadrant .card-text3{
     margin-top: -10px !important;
-}
-
-#quadrant .tab-2{
-    margin-left: 50px !important;
-    border-radius: 50%;
-    width: 25px !important;
-    height: 25px !important;
-    padding-top: 2px !important;
-    padding-bottom: 2px !important;
-    padding-left: 8px !important;
-    padding-right: 8px !important;
-
-    background: #1e7fb6;
-    border: 1px solid #1e7fb6;
-    color: white;
-}
-
-#quadrant .tab-3{
-    margin-left: 50px !important;
-    border-radius: 50%;
-    width: 25px !important;
-    height: 25px !important;
-    padding-top: 2px !important;
-    padding-bottom: 2px !important;
-    padding-left: 8px !important;
-    padding-right: 8px !important;
-
-    background: #ffcf54;
-    border: 1px solid #ffcf54;
-    color: white !important;
-}
-
-#quadrant .tab-4{
-    margin-left: 45px !important;
-    border-radius: 50%;
-    width: 25px !important;
-    height: 25px !important;
-    padding-top: 2px !important;
-    padding-bottom: 2px !important;
-    padding-left: 8px !important;
-    padding-right: 8px !important;
-
-    background: #ed5144;
-    border: 1px solid #ed5144;
-    color: white!important;
 }
 
 #quadrant .pop-up{
@@ -1598,8 +1536,8 @@ footer .copyright span {
     z-index: 3;
     background-color: var(--warna1);
     width: 520px;
-    margin-bottom: -40px;
-    height: 655px;
+    margin-bottom: -20px;
+    height: 600px;
 }
 
 #ai-suggestion-new .mask8{
@@ -2081,11 +2019,6 @@ footer .copyright span {
         margin-left: 634px;
     }
 
-    .tombol-panah {
-        transform: translate(0px, -70%);
-    }
-
-
     /* pantau kinerja section */
 
     #open-close .pantau-kinerja-judul h1{
@@ -2120,7 +2053,62 @@ footer .copyright span {
 
     /* pelacakan section */
 
+    #pelacakan .pelacakan-judul h1{
+        font-size: 45px;
+    }
+
+    #pelacakan .pelacakan-judul p{
+        font-size: 14px;
+    }
+
+    .single-timeline-area .timeline-date::before {
+        width: 50px;
+        height: 50px;
+        border: 15px solid #4e5150;
+    }
+
+    .single-timeline-area .timeline-date-1::after {
+        width: 2px;
+        height: 100%;
+        content: "";
+        background-color: black;
+        top: 100px !important;
+        right: 21px;
+        z-index: 1;
+    }
     
+    .single-timeline-area .timeline-date-2::after {
+        width: 2px;
+        height: 200%;
+        content: "";
+        background-color: black;
+        top: -15px;
+        right: 21px;
+        z-index: 1;
+    }
+
+    .single-timeline-area .single-timeline-content {
+        position: relative;
+        z-index: 1;
+        padding: 20px 0px 25px;
+        min-width: 250px;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .img-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+    .pelacakan-img{
+        width: 250px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
     #pelacakan .mask1{
         width: 370px;
         margin-bottom: 0px;
@@ -2146,130 +2134,9 @@ footer .copyright span {
     }
     
     #pelacakan .mask6{
-        width: 380px;
+        width: 400px;
         margin-bottom: -40px;
         height: 600px;
-    }
-
-    #pelacakan .mt-90{
-        margin-top: 10px;
-    }
-    .timeline_area {
-        position: relative;
-        z-index: 1;
-    }
-    .single-timeline-area {
-        position: relative;
-        z-index: 1;
-        padding-left: 75px;
-        margin-bottom: 60px;
-    }
-    .single-timeline-area .timeline-date {
-        position: absolute;
-        width: 90px;
-        height: 100%;
-        top: 0px;
-        left: 0;
-        z-index: 1;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -ms-grid-row-align: center;
-        align-items: center;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-        justify-content: flex-end;
-        padding-right: 60px;
-    }
-    
-    .single-timeline-area .timeline-date-1::after {
-        position: absolute;
-        width: 1px;
-        height: 100%;
-        content: "";
-        background-color: black;
-        top: 100px !important;
-        right: 30px;
-        z-index: 1;
-    }
-    
-    .single-timeline-area .timeline-date-2::after {
-        position: absolute;
-        width: 1px;
-        height: 180%;
-        content: "";
-        background-color: black;
-        top: 0px;
-        right: 30px;
-        z-index: 1;
-    }
-    
-    .single-timeline-area .timeline-date-2::before{
-        background-color: #edf2f7;
-    }
-    
-    .single-timeline-area .timeline-date-3::before{
-        background-color: #edf2f7;
-    }
-    
-    .single-timeline-area .timeline-date::before {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: 15px solid #4e5150;
-        content: "";
-        top: 50%;
-        right: 6px;
-        z-index: 5;
-        margin-top: -20px;
-    }
-    
-    .single-timeline-area .single-timeline-content {
-        position: relative;
-        z-index: 1;
-        padding: 20px 30px 25px;
-        max-width: 280px;
-        border-radius: 6px;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
-    
-    .single-timeline-area .single-timeline-content .timeline-icon i {
-        color: #ffffff;
-        line-height: 30px;
-    }
-    .single-timeline-area .single-timeline-content .timeline-text h6 {
-        -webkit-transition-duration: 500ms;
-        transition-duration: 500ms;
-    }
-    .single-timeline-area .single-timeline-content .timeline-text p {
-        font-size: 10.46px;
-        margin-bottom: 0;
-    }
-    
-    .number{
-        position: absolute;
-        right: 20%;
-        font-size: 80px;
-        bottom: 5%;
-        background: -webkit-linear-gradient(#acc0ae, #ffffff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        z-index: -1;
-    }
-    
-    .number-2{
-        position: absolute;
-        right: 18%;
-        font-size: 80px;
-        bottom: 35%;
-        background: -webkit-linear-gradient(#acc0ae, #ffffff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        z-index: -1;
     }
 
     /* section analysis */
@@ -2875,7 +2742,7 @@ footer .copyright span {
 
 @media (max-width: 430px) {
     #nav .btn-demo{
-      width: 80vw;
+        width: 80vw;
     }
 }
 
@@ -3042,5 +2909,11 @@ footer .copyright span {
     }
     .blog .button a {
         width: 280px;
+    }
+}
+
+@media (max-width: 1399px) {
+    #nav .navbar-brand img{
+      width: 110px ;
     }
 }

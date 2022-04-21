@@ -40,7 +40,6 @@ $(document).ready(function () {
   gsap.from("#section1-1 .kart", { opacity: 0, delay: 1.2, duration: 0.5 });
 });
 
-
 // parallax effect
 
 // random 0
@@ -110,7 +109,6 @@ gsap.to("#section1-1 .random0 .solusibtn", {
 });
 
 // random 1
-
 gsap.to("#section1-1 .random1 .panahlingkaran", {
   yPercent: -1500,
   ease: "none",
@@ -242,9 +240,6 @@ gsap.to("#section1-1 .random2 .solusibtn", {
   }, 
 });
 
-
-
-
 /*section pelacakan*/
 const pelacakan = gsap.timeline();
 pelacakan.to("#pelacakan .mask5", {
@@ -307,7 +302,7 @@ pindah = gsap.timeline({
     trigger: "#quadrant",
     pin: true,
     scrub: 1,
-    start: "13% top",
+    start: "8% top",
     end: "+=4000",
     // markers:true,
   },
@@ -318,44 +313,31 @@ pindah3.to(".pop-up-1", { scale: 1, transformOrigin: "center", duration: 2, dela
 pindah3.to(".pop-up-2", { scale: 0, transformOrigin: "center", duration: 1, delay: 0.7 });
 pindah3.to(".pop-up-2", { scale: 1, transformOrigin: "center", duration: 1, delay: 1.2, display: "block" });
 pindah.to(".percent-change-1", {duration: 2, delay: 5, text : "48%"});
-pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "50%", color: '#ffcf54'});
-pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "55%", color: '#ffcf54'});
-pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "60%", color: '#ffcf54'});
-pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "67%", color: '#ffcf54'});
+pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "50%", color: '#fed25e'});
+pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "55%", color: '#fed25e'});
+pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "60%", color: '#fed25e'});
+pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "67%", color: '#fed25e'});
 pindah.to(".card-pindah-1", {x: "-16.2vw", duration: 5});
 if(window.innerWidth < 1300){
   pindah.to(".card-pindah-1", {x: "-16.7vw", duration: 5});
 }
-pindah.to(".card-change-color-1", {backgroundColor:'#ffcf54'});
+pindah.to(".card-change-color-1", {backgroundColor:'#fed25e'});
 pindah.to(".pop-up-1", { scale: 0, transformOrigin: "center", duration: 1, delay: 0.7 });
 pindah.to(".pop-up-1", { duration: 5, delay: 0.7, zIndex: -1});
 pindah.to(".pop-up-1", { scale: 1, transformOrigin: "center", duration: 1, delay: 0.7 });
 pindah.to(".pop-up-2", { duration: 5, delay: 0.7, zIndex: 5});
-pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "88%", color: '#1e7fb6'});
-pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "83%", color: '#1e7fb6'});
-pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "74%", color: '#1e7fb6'});
-pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "65%", color: '#ffcf54'});
-pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "51%", color: '#ffcf54'});
-pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "42%", color: '#e94e4f'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "88%", color: '#388ba6'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "83%", color: '#388ba6'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "74%", color: '#388ba6'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "65%", color: '#fed25e'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "51%", color: '#fed25e'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "42%", color: '#ff8066'});
 pindah.to(".card-pindah-2", {x: "48.2vw", duration: 5});
 if(window.innerWidth < 1300){
   pindah.to(".card-pindah-2", {x: "50.2vw", duration: 5});
 }
-pindah.to(".card-change-color-2", {backgroundColor:'#e94e4f'});
-pindah.to(".card-change-color-2", {backgroundColor:'#e94e4f'});
-pindah2 = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#quadrant",
-    pin: false,
-    scrub: 1,
-    start: "12% top",
-    end: "bottom",
-    // markers:true,
-  },
-});
-
-pindah2.to(".tab-3", {duration: 2, text: "2"});
-pindah2.to(".tab-1", {duration: 2, text: "1"});
+pindah.to(".card-change-color-2", {backgroundColor:'#ff8066'});
+pindah.to(".card-change-color-2", {backgroundColor:'#ff8066'});
 
 /*section horizontal scroll (ai suggestion + skill overview)*/
 
@@ -470,7 +452,7 @@ $(document).ready(function () {
   var $win = $(window);
 
   $win.scroll(function () {
-    if ($win.scrollTop() > 0) {
+    if ($win.scrollTop() > 150) {
       $("#nav .container-lg").addClass("scrolltop");
     } else {
       $("#nav .container-lg").removeClass("scrolltop");
@@ -491,7 +473,6 @@ document.addEventListener("DOMContentLoaded", function () {
       if (scroll_top < last_scroll_top) {
         el_autohide.classList.remove("scrolled-down");
         el_autohide.classList.add("scrolled-up");
-      } else if (scroll_top < 600) {
       } else {
         el_autohide.classList.remove("scrolled-up");
         el_autohide.classList.add("scrolled-down");
