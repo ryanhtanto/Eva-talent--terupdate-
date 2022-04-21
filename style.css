@@ -291,15 +291,15 @@ h4{
 
 #section1-1 .kart1 {
     width: 244px;
-    margin-bottom: 242px;
-    margin-right: 230px;
+    margin-bottom: 202px;
+    margin-right: 120px;
     object-fit: contain;
 }
 
 #section1-1 .kart2 {
     width: 223px;
     margin-top: 278px;
-    margin-right: 245px;
+    margin-right: 105px;
     object-fit: contain;
 }
 
@@ -313,7 +313,7 @@ h4{
 #section1-1 .kart4 {
     width: 207px;
     margin-top: 302px;
-    margin-left: 524px;
+    margin-left: 664px;
     object-fit: contain;
 }
 
