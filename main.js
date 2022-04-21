@@ -553,10 +553,10 @@ function textCutter(element) {
   element.forEach((el) => {
     cardTeks.push(el.textContent.substring(0, 200));
   });
-  document.querySelectorAll(".card .card-text").forEach((el, i) => {
+  document.querySelectorAll(".card-text-extra").forEach((el, i) => {
     el.innerHTML = `${cardTeks[i]}...`;
   });
 }
-const cardText = document.querySelectorAll(".card .card-text");
+const cardText = document.querySelectorAll(".card-text-extra");
 textCutter(cardText);
 //--------------------------------------------------------------------------
