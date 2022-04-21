@@ -2066,6 +2066,25 @@ footer .copyright span {
         height: 50px;
         border: 15px solid #4e5150;
     }
+    .single-timeline-area .timeline-date {
+        position: absolute;
+        width: 90px;
+        height: 100%;
+        top: 10px;
+        left: 0;
+        z-index: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        padding-right: 60px;
+    }
 
     .single-timeline-area .timeline-date-1::after {
         width: 2px;
