@@ -1030,6 +1030,10 @@ h4{
     height: 150vh;
 }
 
+#ai-suggestion-new .mt-180{
+    margin-top: 180px;
+}
+
 #ai-suggestion-new .underline{
     text-decoration: 5px underline #FFD365;
 }   
@@ -1045,21 +1049,24 @@ h4{
 }
 
 #ai-suggestion-new .img-ai{
+    width: 75%;
     position: absolute;
     left: 60px;
-    bottom: 135px;
+    bottom: 92px;
 }
 
 #ai-suggestion-new .img-ai-3{
+    width: 80%;
     position: absolute;
-    left: 85px;
-    bottom: 135px;
+    left: 45px;
+    bottom: 92px;
 }
 
 #ai-suggestion-new .img-ai-2{
+    width: 65%;
     position: absolute;
-    left: 75px;
-    bottom: 135px;
+    left: 95px;
+    bottom: 90px;
 }
 
 .content2-2 .card-body img{
@@ -2223,10 +2230,22 @@ footer .copyright span {
 
     /* gap analysis */
 
+    #ai-suggestion-new .mt-180{
+        margin-top: 110px;
+    }
+
+    #ai-suggestion-new .content-2{
+        top: 12%;
+    }
+
+    #ai-suggestion-new .content2-2{
+        top: 15%;
+    }
+
     #ai-suggestion-new .mask7{
         width: 450px;
         height: 600px;
-        bottom: 250px;
+        bottom: 280px;
     }
 
     /* .content2-1{
@@ -2247,22 +2266,27 @@ footer .copyright span {
         margin: 0px;
     }
 
+
+
     #ai-suggestion-new .img-ai{
+        /* width: 80%; */
+        width: 75%;
         left: 60px;
-        bottom: 85px;
-        display: none;
+        bottom: 60px;
     }
 
     #ai-suggestion-new .img-ai-2{
-        left: 85px;
-        bottom: 85px;
-        display: none;
+        /* width: 60%; */
+        width: 65%;
+        left: 70px;
+        bottom: 63px;
     }
     
     #ai-suggestion-new .img-ai-3{
-        left: 81px;
-        bottom: 85px;
-        display: none;
+        /* width: 60%; */
+        width: 79%;
+        left: 40px;
+        bottom: 62px;
     }
 
     .gap-analisis-judul{
