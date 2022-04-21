@@ -1,0 +1,537 @@
+/*section scope of evaluation*/
+gsap.registerPlugin(ScrollTrigger);
+$(document).ready(function () {
+  gsap.to("#section1-1 .mask1", {
+    scaleY: 0,
+    transformOrigin: "top bottom",
+    duration: 1,
+    delay: 0.5,
+  });
+  gsap.to("#section1-1 .mask2", {
+    scaleY: 0,
+    transformOrigin: "top bottom",
+    duration: 1,
+    delay: 0.5,
+  });
+  gsap.to("#section1-1 .orang", {
+    scale: 0.85,
+    transformOrigin: "center bottom",
+    duration: 1,
+    delay: 0.7,
+  });
+  gsap.to("#section1-1 .orang", {
+    scale: 1,
+    transformOrigin: "center bottom",
+    duration: 1,
+    delay: 1.2,
+  });
+  gsap.to("#section1-1 .mask3", {
+    scaleY: 0,
+    transformOrigin: "top bottom",
+    duration: 1,
+    delay: 1.2,
+  });
+  gsap.from("#section1-1 .solusibtn", {
+    scale: 1.3,
+    transformOrigin: "top left",
+    duration: 0.5,
+    delay: 1.2,
+  });
+  gsap.from("#section1-1 .kart", { opacity: 0, delay: 1.2, duration: 0.5 });
+});
+
+// parallax effect
+
+// random 0
+gsap.to("#section1-1 .random0 .kart", {
+  yPercent: -400,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random0",
+    pin:"#section1-1 .random0 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random0 .bgorang , #section1-1 .random0 .mask2", {
+  yPercent: -100,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random0",
+    pin:"#section1-1 .random0 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random0 .eva , #section1-1 .random0 .mask1 , #section1-1 .random0 .mask3", {
+  yPercent: -275,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random0",
+    pin:"#section1-1 .random0 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random0 .parallax", {
+  yPercent: -600,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random0",
+    pin:"#section1-1 .random0 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random0 .solusibtn", {
+  yPercent: -800,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random0",
+    pin:"#section1-1 .random0 .row",
+    start: "-10%",
+    scrub:0.01,
+  }, 
+});
+
+// random 1
+gsap.to("#section1-1 .random1 .kart", {
+  yPercent: -400,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random1",
+    pin:"#section1-1 .random1 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random1 .bgorang , #section1-1 .random1 .mask2", {
+  yPercent: -100,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random1",
+    pin:"#section1-1 .random1 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random1 .eva , #section1-1 .random1 .mask1 , #section1-1 .random1 .mask3", {
+  yPercent: -275,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random1",
+    pin:"#section1-1 .random1 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random1 .parallax", {
+  yPercent: -600,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random1",
+    pin:"#section1-1 .random1 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random1 .solusibtn", {
+  yPercent: -800,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random1",
+    pin:"#section1-1 .random1 .row",
+    start: "-10%",
+    scrub:0.01,
+  }, 
+});
+
+// random 2
+gsap.to("#section1-1 .random2 .kart", {
+  yPercent: -400,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random2",
+    pin:"#section1-1 .random2 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random2 .bgorang , #section1-1 .random2 .mask2", {
+  yPercent: -100,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random2",
+    pin:"#section1-1 .random2 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random2 .eva , #section1-1 .random2 .mask1 , #section1-1 .random2 .mask3", {
+  yPercent: -275,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random2",
+    pin:"#section1-1 .random2 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random2 .parallax", {
+  yPercent: -600,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random2",
+    pin:"#section1-1 .random2 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
+
+gsap.to("#section1-1 .random2 .solusibtn", {
+  yPercent: -800,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random2",
+    pin:"#section1-1 .random2 .row",
+    start: "-10%",
+    scrub:0.01,
+  }, 
+});
+
+/*section pelacakan*/
+pelacakan = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#pelacakan",
+    pin: true,
+    scrub: 1,
+    start: "10% top",
+    end: "+=2000",
+    // markers:true,
+  },
+});
+
+pelacakan.to("#pelacakan .mask5", {
+  delay: 1,
+  scaleY: 0,
+  transformOrigin: "top bottom",
+  duration: 20,
+});
+
+pelacakan.to("#pelacakan .mask6", {
+  delay: 1.5,
+  scaleY: 0,
+  transformOrigin: "top bottom",
+  duration: 20,
+})
+
+pelacakan.to("#pelacakan .mask1", {
+  delay: 2,
+  scaleY: 0,
+  transformOrigin: "bottom top",
+  duration: 20,
+});
+
+pelacakan.to("#pelacakan .mask2", {
+  delay: 2.5,
+  scaleY: 0,
+  transformOrigin: "bottom top",
+  duration: 20,
+});
+
+pelacakan.to("#pelacakan .mask3", {
+  delay: 3,
+  scaleY: 0,
+  transformOrigin: "bottom top",
+  duration: 20,
+});
+
+//section analisa performa karyawan
+pindah3 = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#quadrant",
+    scrub: 1,
+    start: "15% top",
+    end: "15% top",
+    // markers:true,
+  },
+});
+
+pindah = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#quadrant",
+    pin: true,
+    scrub: 1,
+    start: "13% top",
+    end: "+=2000",
+    // markers:true,
+  },
+});
+
+pindah3.to(".pop-up-1", { scale: 0, transformOrigin: "center", duration: 1, delay: 0.7 });
+pindah3.to(".pop-up-1", { scale: 1, transformOrigin: "center", duration: 2, delay: 1.2, display: "block" });
+pindah3.to(".pop-up-2", { scale: 0, transformOrigin: "center", duration: 1, delay: 0.7 });
+pindah3.to(".pop-up-2", { scale: 1, transformOrigin: "center", duration: 1, delay: 1.2, display: "block" });
+pindah.to(".percent-change-1", {duration: 2, delay: 5, text : "48%"});
+pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "50%", color: '#ffcf54'});
+pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "55%", color: '#ffcf54'});
+pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "60%", color: '#ffcf54'});
+pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "67%", color: '#ffcf54'});
+pindah.to(".card-pindah-1", {x: "-16.2vw", duration: 5});
+if(window.innerWidth < 1300){
+  pindah.to(".card-pindah-1", {x: "-16.7vw", duration: 5});
+}
+pindah.to(".card-change-color-1", {backgroundColor:'#ffcf54'});
+pindah.to(".pop-up-1", { scale: 0, transformOrigin: "center", duration: 1, delay: 0.7 });
+pindah.to(".pop-up-1", { duration: 5, delay: 0.7, zIndex: -1});
+pindah.to(".pop-up-1", { scale: 1, transformOrigin: "center", duration: 1, delay: 0.7 });
+pindah.to(".pop-up-2", { duration: 5, delay: 0.7, zIndex: 5});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "88%", color: '#1e7fb6'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "83%", color: '#1e7fb6'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "74%", color: '#1e7fb6'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "65%", color: '#ffcf54'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "51%", color: '#ffcf54'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "42%", color: '#e94e4f'});
+pindah.to(".card-pindah-2", {x: "48.2vw", duration: 5});
+if(window.innerWidth < 1300){
+  pindah.to(".card-pindah-2", {x: "50.2vw", duration: 5});
+}
+pindah.to(".card-change-color-2", {backgroundColor:'#e94e4f'});
+pindah.to(".card-change-color-2", {backgroundColor:'#e94e4f'});
+pindah2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#quadrant",
+    pin: false,
+    scrub: 1,
+    start: "12% top",
+    end: "bottom",
+    // markers:true,
+  },
+});
+
+pindah2.to(".tab-3", {duration: 2, text: "2"});
+pindah2.to(".tab-1", {duration: 2, text: "1"});
+
+/*section horizontal scroll (ai suggestion + skill overview)*/
+horizontal = gsap.timeline({
+  scrollTrigger: {
+    trigger: "#ai-suggestion-new",
+    pin: true,
+    scrub: 1,
+    start: "15% top",
+    end: "+=4000",
+    // markers:true,
+  },
+});
+
+const people = gsap.timeline();
+people.to("#ai-suggestion-new .people", { scale: 0.85, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people", { scale: 1, transformOrigin: "center bottom", duration: 1.5 });
+
+ScrollTrigger.create({
+    animation: people,
+    trigger: "#ai-suggestion-new",
+    start: "40% bottom",
+    end: "40% bottom",
+    toggleActions: "restart none reverse none",
+    // markers: true
+});
+
+horizontal.to("#ai-suggestion-new .mask7", {
+  delay: 0.5,
+  scaleY: 0,
+  transformOrigin: "top bottom",
+  duration: 2,
+});
+
+horizontal.to("#myBar", {width: "25%", duration: 1});
+
+horizontal.to("#ai-suggestion-new .mask8", {
+  delay: 1,
+  scaleY: 0,
+  transformOrigin: "top bottom",
+  duration: 2,
+});
+
+horizontal.to("#ai-suggestion-new .mask9", {
+  delay: 1.5,
+  scaleY: 0,
+  transformOrigin: "top bottom",
+  duration: 2,
+});
+
+horizontal.to("#ai-suggestion-new .mask10", {
+  delay: 3,
+  scaleY: 0,
+  transformOrigin: "top bottom",
+  duration: 2,
+});
+
+horizontal.to("#ai-suggestion-new .mask11", {
+  delay: 2.5,
+  scaleY: 0,
+  transformOrigin: "top bottom",
+  duration: 2,
+});
+
+horizontal.to("#ai-suggestion-new .mask12", {
+  delay: 2,
+  scaleY: 0,
+  transformOrigin: "top bottom",
+  duration: 2,
+});
+
+horizontal.to("#myBar", {width: "50%", duration: 2});
+horizontal.to(".content-1", { x: -500, duration: 2});
+horizontal.to(".content2-1", { x: 500, duration: 2});
+horizontal.to(".content-2", { x: 0, duration: 2});
+horizontal.to("#myBar", {width: "75%", duration: 2});
+horizontal.to(".content2-2 .card", { x: 0, duration: 2});
+horizontal.to(".content2-2", { x: 0});
+horizontal.to("#myBar", {width: "100%", duration: 2});
+
+/*form-section*/
+const imageFormPoint = document.querySelector(".imageforForm");
+const imageForm = document.querySelector(".image-form");
+const cardFormPoint = document.querySelector(".cardforForm");
+const cardForm = document.querySelector(".card-form");
+
+const animateOnScroll = (elementAnimate, animateIn, animateOut, marginView) => {
+  return new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          elementAnimate.style.transform = `${animateIn}`;
+        } else {
+          elementAnimate.style.transform = `${animateOut}`;
+        }
+      });
+    },
+    {
+      root: document,
+      rootMarginTop: `${marginView}`,
+    }
+  );
+};
+
+const observer3 = animateOnScroll(imageForm, "translateY(0%)", "translateY(100%)", "-200px");
+const observer4 = animateOnScroll(cardForm, "translateX(0%)", "translateX(100%)", "-200px");
+
+observer3.observe(imageFormPoint);
+observer4.observe(cardFormPoint);
+
+/*ScrollTrigger mask animation*/
+gsap.registerPlugin(ScrollTrigger);
+
+if(window.innerWidth > 992){
+  
+}
+/*navbar*/
+$(document).ready(function () {
+  var $win = $(window);
+
+  $win.scroll(function () {
+    if ($win.scrollTop() > 0) {
+      $("#nav .container-lg").addClass("scrolltop");
+    } else {
+      $("#nav .container-lg").removeClass("scrolltop");
+    }
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  el_autohide = document.querySelector("#nav .navbar");
+
+  // add padding-top to bady (if necessary)
+  navbar_height = document.querySelector("#nav .navbar").offsetHeight;
+
+  if (el_autohide) {
+    var last_scroll_top = 0;
+    window.addEventListener("scroll", function () {
+      let scroll_top = window.scrollY;
+      if (scroll_top < last_scroll_top) {
+        el_autohide.classList.remove("scrolled-down");
+        el_autohide.classList.add("scrolled-up");
+      } else if (scroll_top < 600) {
+      } else {
+        el_autohide.classList.remove("scrolled-up");
+        el_autohide.classList.add("scrolled-down");
+      }
+      last_scroll_top = scroll_top;
+    });
+    // window.addEventListener
+  }
+  // if
+});
+// DOMContentLoaded  end
+
+document.querySelector('#nav .first-button').addEventListener('click', function () {
+
+  document.querySelector('#nav .animated-icon1').classList.toggle('open');
+  });
+
+/*random content setiap refresh*/       
+$(".random"+(new Date().getTime() % 3)).css("display", "block");
+
+//marquee section
+const tl3 = gsap.timeline();
+tl3.fromTo(".transisi4-title", { height: 80 }, { height: 0 })
+   .fromTo(".transisi4-desc", { height: 40 }, { height: 0 })
+   .fromTo(".transisi4-btn", { opacity: 0 }, { opacity: 1 })
+
+ScrollTrigger.create({
+  animation: tl3,
+  trigger: "#section3-4",
+  start: "top center",
+  end: "top center",
+  toggleActions: "restart none reverse none",
+  scrub: 1,
+  // markers: true
+});
+
+
+// leaderboard section
+  const leaderboardCard = gsap.timeline();
+  leaderboardCard
+    .from(".leaderboard-card", { y: -700, duration: 1, delay: 1.5 })
+    .to(".leaderboard-card", { y: -30, duration: 0.7});
+
+  ScrollTrigger.create({
+    animation: leaderboardCard,
+    trigger: ".judul-leaderboard",
+    start: "20% 80%",
+    end: "20% 80%",
+    toggleActions: "restart none none none",
+    // markers: true,
+  });
+  
+  
+// Final evaluation section
+const finalEvaluation = gsap.timeline();
+finalEvaluation
+.from(".text-final, .card-ai-one , .card-ai-two", { y: 400, duration: 1, delay: 0.1 })
+.from(" .text-second", { y: 100, duration: 0.3, delay: 0.1 })
+.from(".img-finalEvaluation", { opacity: 0, duration: 0.5, delay:0.1})
+.from(".floating-one", { opacity: 0, duration: 0.3, delay:0.1})
+.from(".floating-two", { opacity: 0, duration: 0.3, delay:0.1})
+.from(".floating-three", { opacity: 0, duration: 0.3, delay:0.1})
+.from(".floating-four", { opacity: 0, duration: 0.3, delay:0.1})
+
+ScrollTrigger.create({
+  animation: finalEvaluation,
+  trigger: ".final-evaluation",
+  start: "8% 80%",
+  end: "8% 80%",
+  toggleActions: "restart none none none",
+  // markers: true,
+});
