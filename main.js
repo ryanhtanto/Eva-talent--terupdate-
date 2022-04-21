@@ -1,4 +1,4 @@
-/*section scope of evaluation*/
+/section scope of evaluation/
 gsap.registerPlugin(ScrollTrigger);
 $(document).ready(function () {
   gsap.to("#section1-1 .mask1", {
@@ -246,50 +246,49 @@ gsap.to("#section1-1 .random2 .solusibtn", {
 
 
 /*section pelacakan*/
-pelacakan = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#pelacakan",
-    pin: true,
-    scrub: 1,
-    start: "10% top",
-    end: "+=2000",
-    // markers:true,
-  },
-});
-
+const pelacakan = gsap.timeline();
 pelacakan.to("#pelacakan .mask5", {
   delay: 1,
   scaleY: 0,
   transformOrigin: "top bottom",
-  duration: 20,
+  duration: 100,
 });
 
 pelacakan.to("#pelacakan .mask6", {
   delay: 1.5,
   scaleY: 0,
   transformOrigin: "top bottom",
-  duration: 20,
+  duration: 100,
 })
 
 pelacakan.to("#pelacakan .mask1", {
   delay: 2,
   scaleY: 0,
   transformOrigin: "bottom top",
-  duration: 20,
+  duration: 100,
 });
 
 pelacakan.to("#pelacakan .mask2", {
   delay: 2.5,
   scaleY: 0,
   transformOrigin: "bottom top",
-  duration: 20,
+  duration: 100,
 });
 
 pelacakan.to("#pelacakan .mask3", {
   delay: 3,
   scaleY: 0,
   transformOrigin: "bottom top",
-  duration: 20,
+  duration: 100,
+});
+
+ScrollTrigger.create({
+  animation: pelacakan,
+  trigger: "#pelacakan",
+  scrub:1,
+  start: "10% top",
+  end: "+=4000",
+  pin:true,
 });
 
 //section analisa performa karyawan
@@ -309,7 +308,7 @@ pindah = gsap.timeline({
     pin: true,
     scrub: 1,
     start: "13% top",
-    end: "+=2000",
+    end: "+=4000",
     // markers:true,
   },
 });
@@ -359,13 +358,14 @@ pindah2.to(".tab-3", {duration: 2, text: "2"});
 pindah2.to(".tab-1", {duration: 2, text: "1"});
 
 /*section horizontal scroll (ai suggestion + skill overview)*/
+
 horizontal = gsap.timeline({
   scrollTrigger: {
     trigger: "#ai-suggestion-new",
     pin: true,
     scrub: 1,
-    start: "15% top",
-    end: "+=4000",
+    start: "10% top",
+    end: "+=3000",
     // markers:true,
   },
 });
@@ -386,54 +386,48 @@ horizontal.to("#ai-suggestion-new .mask7", {
   delay: 0.5,
   scaleY: 0,
   transformOrigin: "top bottom",
-  duration: 2,
+  duration: 1,
 });
+
 
 horizontal.to("#myBar", {width: "25%", duration: 1});
+horizontal.to("#myBar", {width: "50%", duration: 1});
+horizontal.to("#myBar", {width: "75%", duration: 1});
+horizontal.to("#myBar", {width: "100%", duration: 1});
 
-horizontal.to("#ai-suggestion-new .mask8", {
-  delay: 1,
-  scaleY: 0,
-  transformOrigin: "top bottom",
-  duration: 2,
+const animKiri = gsap.timeline();
+animKiri.from(".anim-kiri, .anim-kiri-1", { opacity:1, x: "-100vh", stagger:0.1, duration: 5});
+animKiri.to(".anim-kiri, .anim-kiri-1", { opacity:0, x: "-100vh", stagger:0.1, duration: 5});
+animKiri.from(".anim-kiri-after", { opacity:0, x: "-130vh", duration: 1});
+animKiri.to(".anim-kiri-after", { opacity:1, x: "0vh", duration: 1});
+animKiri.from(".progress-bar-1, .progress-bar-2, .progress-bar-3, .progress-bar-4", {width: "0%", duration: 1});
+animKiri.to(".progress-bar-1", {width: "90%", duration: 1});
+animKiri.to(".progress-bar-2", {width: "75%", duration: 1});
+animKiri.to(".progress-bar-3", {width: "60%", duration: 1});
+animKiri.to(".progress-bar-4", {width: "50%", duration: 1});
+ScrollTrigger.create({
+  animation: animKiri,
+  trigger: "#ai-suggestion-new",
+  scrub:1,
+  start: "10% top",
+  end: "+=3000",
+  pin:true,
 });
 
-horizontal.to("#ai-suggestion-new .mask9", {
-  delay: 1.5,
-  scaleY: 0,
-  transformOrigin: "top bottom",
-  duration: 2,
-});
+const animKanan = gsap.timeline();
+animKanan.from(".anim-kanan", { opacity:1, x: "100vh", stagger:0.1, duration: 2});
+animKanan.to(".anim-kanan", { opacity:0, x: "100vh", stagger:0.1, duration: 2});
+animKanan.from(".anim-kanan-after", { opacity:0, x: "100vh", stagger:0.1, duration: 1});
+animKanan.to(".anim-kanan-after", { opacity:1, x: "0vh", stagger:0.1, duration: 1});
 
-horizontal.to("#ai-suggestion-new .mask10", {
-  delay: 3,
-  scaleY: 0,
-  transformOrigin: "top bottom",
-  duration: 2,
+ScrollTrigger.create({
+  animation: animKanan,
+  trigger: "#ai-suggestion-new",
+  scrub:1,
+  start: "10% top",
+  end: "+=3000",
+  pin:true,
 });
-
-horizontal.to("#ai-suggestion-new .mask11", {
-  delay: 2.5,
-  scaleY: 0,
-  transformOrigin: "top bottom",
-  duration: 2,
-});
-
-horizontal.to("#ai-suggestion-new .mask12", {
-  delay: 2,
-  scaleY: 0,
-  transformOrigin: "top bottom",
-  duration: 2,
-});
-
-horizontal.to("#myBar", {width: "50%", duration: 2});
-horizontal.to(".content-1", { x: -500, duration: 2});
-horizontal.to(".content2-1", { x: 500, duration: 2});
-horizontal.to(".content-2", { x: 0, duration: 2});
-horizontal.to("#myBar", {width: "75%", duration: 2});
-horizontal.to(".content2-2 .card", { x: 0, duration: 2});
-horizontal.to(".content2-2", { x: 0});
-horizontal.to("#myBar", {width: "100%", duration: 2});
 
 /*form-section*/
 const imageFormPoint = document.querySelector(".imageforForm");
@@ -570,3 +564,18 @@ ScrollTrigger.create({
   toggleActions: "restart none none none",
   // markers: true,
 });
+
+//--------------------------------------------------------------------------
+// JAVASCRIPT FOR BLOG
+function textCutter(element) {
+  let cardTeks = [];
+  element.forEach((el) => {
+    cardTeks.push(el.textContent.substring(0, 200));
+  });
+  document.querySelectorAll(".card .card-text").forEach((el, i) => {
+    el.innerHTML = `${cardTeks[i]}...`;
+  });
+}
+const cardText = document.querySelectorAll(".card .card-text");
+textCutter(cardText);
+//--------------------------------------------------------------------------
