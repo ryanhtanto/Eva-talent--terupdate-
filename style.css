@@ -2303,7 +2303,8 @@ footer .copyright span {
     }
 
     #quadrant .pop-up-1{
-        width: 180px;
+        margin-left: 40px;
+        width: 195px;
         bottom: 150px;
     }
 
@@ -2312,7 +2313,7 @@ footer .copyright span {
     }
 
     #quadrant .pop-up-2{
-        width: 180px;
+        width: 195px;
         bottom: 200px;
     }
 
