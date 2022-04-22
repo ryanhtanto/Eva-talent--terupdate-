@@ -493,22 +493,6 @@ document.querySelector('#nav .first-button').addEventListener('click', function 
 /*random content setiap refresh*/       
 $(".random"+(new Date().getTime() % 3)).css("display", "block");
 
-//marquee section
-const tl3 = gsap.timeline();
-tl3.fromTo(".transisi4-title", { height: 80 }, { height: 0 })
-   .fromTo(".transisi4-desc", { height: 40 }, { height: 0 })
-   .fromTo(".transisi4-btn", { opacity: 0 }, { opacity: 1 })
-
-ScrollTrigger.create({
-  animation: tl3,
-  trigger: "#section3-4",
-  start: "top center",
-  end: "top center",
-  toggleActions: "restart none reverse none",
-  scrub: 1,
-  // markers: true
-});
-
 
 // leaderboard section
   const leaderboardCard = gsap.timeline();
@@ -546,6 +530,25 @@ ScrollTrigger.create({
   // markers: true,
 });
 
+
+/*section client*/
+const tl3 = gsap.timeline();
+tl3
+  .fromTo("#section3-4 .judul", { opacity: 0, scale: 1.3, duration: 1.5 }, { opacity: 1, scale: 1, duration: 3 })
+  .fromTo("#section3-4 .judul", { y: 100, }, { y: 0, duration: 3 })
+  .fromTo("#section3-4 .desc", { opacity: 0, y: -50 }, { opacity: 1, y: 0, duration: 1 })
+  .fromTo("#section3-4 .solusibtn", { opacity: 0, y: 100 }, { opacity: 1, y: 0, duration: 1 })
+  .fromTo("#section3-4 .slider", { opacity: 0 }, { opacity: 1, duration: 1 })
+
+ScrollTrigger.create({
+  animation: tl3,
+  trigger: "#section3-4",
+  start: "top",
+  end: "top",
+  toggleActions: "play none none none",
+  scrub: 3,
+  // markers: true
+});
 //--------------------------------------------------------------------------
 // JAVASCRIPT FOR BLOG
 function textCutter(element) {
