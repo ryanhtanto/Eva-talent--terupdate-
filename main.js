@@ -348,7 +348,7 @@ horizontal = gsap.timeline({
     scrub: 1,
     start: "10% top",
     end: "+=3000",
-    markers:true,
+    // markers:true,
   },
 });
 
@@ -391,7 +391,7 @@ horizontal.to("#myBar", {width: "100%", duration: 1});
 const animKiri = gsap.timeline();
 animKiri.from(".anim-kiri, .anim-kiri-1", { opacity:1, x: "-100vh", stagger:0.1, duration: 5});
 animKiri.to(".anim-kiri, .anim-kiri-1", { opacity:0, x: "-100vh", stagger:0.1, duration: 5});
-animKiri.to("#ai-suggestion-new .people", { opacity: 0, transformOrigin: "center bottom", duration: 1 });
+animKiri.to("#ai-suggestion-new .people", { opacity: 0, scale: 1, transformOrigin: "center bottom", duration: 1 });
 animKiri.to("#ai-suggestion-new .people2", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people2", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people2", { opacity: 1, transformOrigin: "center bottom", duration: 1 });
 animKiri.from(".anim-kiri-after", { opacity:0, x: "-130vh", stagger:0.1, duration: 1});
 animKiri.to(".anim-kiri-after", { opacity:1, x: "0vh", stagger:0.1, duration: 1});
