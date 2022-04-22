@@ -49,6 +49,11 @@ h4{
     font-weight:700;
 }
 
+.shadow-neo{
+    box-shadow:  7px 7px 11px #bcbcbc,
+             -7px -7px 11px #ffffff;
+}
+
 .orange-text{
     color: #ffc107;
 }
@@ -472,8 +477,6 @@ h4{
     background-color: #EDF2F7;
     border: solid 2px rgba(193, 186, 186, 0.2) !important;
     border-radius: 20px;
-    box-shadow:  7px 7px 11px #bcbcbc,
-             -7px -7px 11px #ffffff;
     border-radius: 21px;
 }
 
@@ -711,9 +714,6 @@ h4{
     background-color: #EDF2F7;
     border: solid 1px #c1baba33 !important;
     border-radius: 20px;
-    box-shadow:  7px 7px 11px #bcbcbc,
-             -7px -7px 11px #ffffff;
-    /* height: 204px; */
     padding: 20px 30px !important;
 }
 
