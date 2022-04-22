@@ -2383,34 +2383,42 @@ footer .copyright span {
     }
 
 
-
     #ai-suggestion-new .img-ai{
+        position: absolute;
         /* width: 80%; */
-        width: 75%;
-        left: 60px;
+        width: 83%;
+        left: 16px;
         bottom: 60px;
+    }
+
+    #ai-suggestion-new .david-1{
+        width: 80%;
+        left: 35px;
     }
 
     #ai-suggestion-new .img-ai-2{
         /* width: 60%; */
-        width: 65%;
-        left: 70px;
+        width: 80%;
+        left: 60px;
         bottom: 63px;
+    }
+
+    #ai-suggestion-new .fransiska-2{
+        width: 75%;
     }
     
     #ai-suggestion-new .img-ai-3{
         /* width: 60%; */
         width: 79%;
-        left: 40px;
+        left: 35px;
         bottom: 62px;
     }
     #ai-suggestion-new .img-ai-4{
         /* width: 60%; */
-        width: 65%;
-        left: 98px;
-        bottom: 92px;
+        width: 68%;
+        left: 85px;
+        bottom: 62px;
     }
-    
 
     .gap-analisis-judul{
         /* font-size: 42px; */
