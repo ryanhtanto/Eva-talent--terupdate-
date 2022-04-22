@@ -353,7 +353,7 @@ horizontal = gsap.timeline({
 });
 
 const people = gsap.timeline();
-people.to("#ai-suggestion-new .people", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people", { opacity: 1, transformOrigin: "center bottom", duration: 1 });
+people.to("#ai-suggestion-new .people", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people", { scale: 1, opacity: 1, transformOrigin: "center bottom", duration: 1 });
 
 ScrollTrigger.create({
     animation: people,
@@ -392,7 +392,7 @@ const animKiri = gsap.timeline();
 animKiri.from(".anim-kiri, .anim-kiri-1", { opacity:1, x: "-100vh", stagger:0.1, duration: 5});
 animKiri.to(".anim-kiri, .anim-kiri-1", { opacity:0, x: "-100vh", stagger:0.1, duration: 5});
 animKiri.to("#ai-suggestion-new .people", { opacity: 0, scale: 1, transformOrigin: "center bottom", duration: 1 });
-animKiri.to("#ai-suggestion-new .people2", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people2", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people2", { opacity: 1, transformOrigin: "center bottom", duration: 1 });
+animKiri.to("#ai-suggestion-new .people2", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people2", { scale: 1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people2", { opacity: 1, transformOrigin: "center bottom", duration: 1 });
 animKiri.from(".anim-kiri-after", { opacity:0, x: "-130vh", stagger:0.1, duration: 1});
 animKiri.to(".anim-kiri-after", { opacity:1, x: "0vh", stagger:0.1, duration: 1});
 animKiri.from(".progress-bar-1, .progress-bar-2, .progress-bar-3, .progress-bar-4", {width: "0%", duration: 1});

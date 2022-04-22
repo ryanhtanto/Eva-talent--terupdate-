@@ -1063,23 +1063,30 @@ h4{
 }
 
 #ai-suggestion-new .img-ai{
-    width: 75%;
+    width: 80%;
     position: absolute;
-    left: 60px;
+    left: 40px;
     bottom: 92px;
 }
 
 #ai-suggestion-new .img-ai-3{
     width: 80%;
     position: absolute;
-    left: 45px;
+    left: 50px;
+    bottom: 92px;
+}
+
+#ai-suggestion-new .img-ai-4{
+    width: 70%;
+    position: absolute;
+    left: 75px;
     bottom: 92px;
 }
 
 #ai-suggestion-new .img-ai-2{
-    width: 65%;
+    width: 80%;
     position: absolute;
-    left: 95px;
+    left: 60px;
     bottom: 90px;
 }
 
