@@ -348,12 +348,13 @@ horizontal = gsap.timeline({
     scrub: 1,
     start: "10% top",
     end: "+=3000",
-    // markers:true,
+    markers:true,
   },
 });
 
 const people = gsap.timeline();
-people.to("#ai-suggestion-new .people", { scale: 0.85, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people", { scale: 1, transformOrigin: "center bottom", duration: 1.5 });
+people.to("#ai-suggestion-new .people", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people", { opacity: 0, transformOrigin: "center bottom", duration: 1 });
+people.to("#ai-suggestion-new .people2", { scale: 0.90,opacity: 1, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people2", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 });
 
 ScrollTrigger.create({
     animation: people,
@@ -361,7 +362,7 @@ ScrollTrigger.create({
     start: "40% bottom",
     end: "40% bottom",
     toggleActions: "restart none reverse none",
-    // markers: true
+    markers: true
 });
 
 horizontal.to("#ai-suggestion-new .mask7", {

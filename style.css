@@ -2302,6 +2302,13 @@ footer .copyright span {
         left: 40px;
         bottom: 62px;
     }
+    #ai-suggestion-new .img-ai-4{
+        /* width: 60%; */
+        width: 65%;
+        left: 98px;
+        bottom: 92px;
+    }
+    
 
     .gap-analisis-judul{
         /* font-size: 42px; */
