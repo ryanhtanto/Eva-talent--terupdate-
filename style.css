@@ -938,6 +938,10 @@ h4{
 #quadrant .card{
     border-radius: 15px;
 }
+
+#quadrant .mb-44{
+    margin-bottom: 44px;
+}
 #quadrant .card-header{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -1952,7 +1956,7 @@ footer .copyright span {
 }
 
 /* notebook size */
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1337px){
     /* section 1 */
     #section1-1 {
         height: 900px;
@@ -2175,27 +2179,36 @@ footer .copyright span {
         font-size: 14px;
     }
 
+    #quadrant .mb-44{
+        margin-bottom: 22px;
+        /* margin-bottom: 44px; */
+    }
+
     #quadrant .quadrant-font h5, .tab-1, .tab-2, .tab-3, .tab-4{
         font-size: 16px;
     }
 
     #quadrant .mb-72{
-        margin-bottom: 42px;
+        margin-bottom: 22px;
+    }
+
+    #quadrant .card-text{
+        font-weight: bold;
     }
 
     #quadrant .card-text, .card-text2{
-        font-size: 14px;
+        font-size: 12px;
     }
     #quadrant .card-text{
-        margin: 5px;
+        margin: 10px;
     }
 
     #quadrant .card-header{
-        padding-top: 15px;
+        padding-top: 3px;
     }
 
     #quadrant .pop-up-1{
-        width: 200px;
+        width: 180px;
         bottom: 150px;
     }
 
@@ -2204,7 +2217,7 @@ footer .copyright span {
     }
 
     #quadrant .pop-up-2{
-        width: 200px;
+        width: 180px;
         bottom: 200px;
     }
 
