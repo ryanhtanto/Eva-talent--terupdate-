@@ -985,8 +985,8 @@ h4{
 #quadrant .pop-up-1{
     position: absolute;
     width: 220px;
-    bottom: 230px;
-    margin-left: 50px;
+    bottom: 240px;
+    margin-left: 80px;
     display: none;
 }
 
@@ -1702,17 +1702,17 @@ footer .copyright span {
 }
 
 #ai-suggestion-new .circlebar {
-    background-image: url("images/section6/a.webp");
+    background-image: url("images/section6/icon-bar.webp");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: -25px;
-    margin-left: -5px;
-    width: 60px;
-    height: 60px;
+    margin-top: -35px;
+    margin-left: -20px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
     border: none;
-    background-color: var(--warna2);
+    opacity: 0;
 }
 
 #ai-suggestion-new .content-2{

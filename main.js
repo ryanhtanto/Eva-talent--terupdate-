@@ -353,8 +353,7 @@ horizontal = gsap.timeline({
 });
 
 const people = gsap.timeline();
-people.to("#ai-suggestion-new .people", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people", { opacity: 0, transformOrigin: "center bottom", duration: 1 });
-people.to("#ai-suggestion-new .people2", { scale: 0.90,opacity: 1, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people2", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 });
+people.to("#ai-suggestion-new .people", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people", { opacity: 1, transformOrigin: "center bottom", duration: 1 });
 
 ScrollTrigger.create({
     animation: people,
@@ -362,7 +361,7 @@ ScrollTrigger.create({
     start: "40% bottom",
     end: "40% bottom",
     toggleActions: "restart none reverse none",
-    markers: true
+    // markers: true
 });
 
 horizontal.to("#ai-suggestion-new .mask7", {
@@ -372,8 +371,19 @@ horizontal.to("#ai-suggestion-new .mask7", {
   duration: 1,
 });
 
+const circle = gsap.timeline();
+circle.to(".circlebar", {scale: 0, duration: 1, delay: 2}).to(".circlebar", {opacity: 1, scale: 1, duration: 1});
 
-horizontal.to("#myBar", {width: "25%", duration: 1});
+ScrollTrigger.create({
+  animation: circle,
+  trigger: "#ai-suggestion-new",
+  start: "40% bottom",
+  end: "40% bottom",
+  toggleActions: "restart none reverse none",
+  // markers: true
+});
+
+horizontal.to("#myBar", {width: "15%", duration: 1}).to("#myBar", {width: "25%", duration: 1});
 horizontal.to("#myBar", {width: "50%", duration: 1});
 horizontal.to("#myBar", {width: "75%", duration: 1});
 horizontal.to("#myBar", {width: "100%", duration: 1});
@@ -381,6 +391,8 @@ horizontal.to("#myBar", {width: "100%", duration: 1});
 const animKiri = gsap.timeline();
 animKiri.from(".anim-kiri, .anim-kiri-1", { opacity:1, x: "-100vh", stagger:0.1, duration: 5});
 animKiri.to(".anim-kiri, .anim-kiri-1", { opacity:0, x: "-100vh", stagger:0.1, duration: 5});
+animKiri.to("#ai-suggestion-new .people", { opacity: 0, transformOrigin: "center bottom", duration: 1 });
+animKiri.to("#ai-suggestion-new .people2", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people2", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people2", { opacity: 1, transformOrigin: "center bottom", duration: 1 });
 animKiri.from(".anim-kiri-after", { opacity:0, x: "-130vh", stagger:0.1, duration: 1});
 animKiri.to(".anim-kiri-after", { opacity:1, x: "0vh", stagger:0.1, duration: 1});
 animKiri.from(".progress-bar-1, .progress-bar-2, .progress-bar-3, .progress-bar-4", {width: "0%", duration: 1});
@@ -498,7 +510,7 @@ $(".random"+(new Date().getTime() % 3)).css("display", "block");
 // leaderboard section
   const leaderboardCard = gsap.timeline();
   leaderboardCard
-    .from(".leaderboard-card", { y: -700, duration: 1, delay: 1.5 })
+    .from(".leaderboard-card", { y: -700, duration: 1, delay: 0.5 })
     .to(".leaderboard-card", { y: -30, duration: 0.7});
 
   ScrollTrigger.create({
