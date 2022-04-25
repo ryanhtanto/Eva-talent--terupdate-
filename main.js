@@ -319,6 +319,9 @@ pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "55%", color: '#fe
 pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "60%", color: '#fed25e'});
 pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "67%", color: '#fed25e'});
 pindah.to(".card-pindah-1", {x: "-110%", duration: 5});
+if(window.innerWidth < 1337){
+  pindah.to(".card-pindah-1", {x: "-112%", duration: 5});
+}
 pindah.to(".card-change-color-1", {backgroundColor:'#fed25e'});
 pindah.to(".pop-up-1", { scale: 0, transformOrigin: "center", duration: 1, delay: 0.7 });
 pindah.to(".pop-up-1", { duration: 5, delay: 0.7, zIndex: -1});
@@ -330,7 +333,10 @@ pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "74%", color: '#
 pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "65%", color: '#fed25e'});
 pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "51%", color: '#fed25e'});
 pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "42%", color: '#ff8066'});
-pindah.to(".card-pindah-2", {x: "330%", duration: 5});
+pindah.to(".card-pindah-2", {x: "333%", duration: 5});
+if(window.innerWidth < 1337){
+  pindah.to(".card-pindah-2", {x: "340%", duration: 5});
+}
 pindah.to(".card-change-color-2", {backgroundColor:'#ff8066'});
 pindah.to(".card-change-color-2", {backgroundColor:'#ff8066'});
 

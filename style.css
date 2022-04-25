@@ -10,13 +10,7 @@ section{
     z-index: 1;
 }
 
-#pelacakan .container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 65px;
-}
+
 
 #nav{
     z-index: 2;
@@ -880,6 +874,13 @@ h4{
     background-position: bottom;
     height: 150vh;
     box-shadow: #edf2f7 0px 10px;
+}
+
+#pelacakan .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #pelacakan .container {
@@ -2106,6 +2107,10 @@ footer p{
 
     #pelacakan .pelacakan-judul h1{
         font-size: 40px;
+    }
+
+    #pelacakan .container{
+        margin-top: 65px;
     }
 
     #pelacakan .timeline-section{
