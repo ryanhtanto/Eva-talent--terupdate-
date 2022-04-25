@@ -575,4 +575,22 @@ function textCutter(element) {
 }
 const cardText = document.querySelectorAll(".card-text-extra");
 textCutter(cardText);
+
+/*animasi blog*/
+const tlBlog = gsap.timeline();
+tlBlog
+  .fromTo(".blog .judul h1", { opacity: 0 }, { opacity: 1, duration: 3 })
+  .fromTo(".blog .judul p", { opacity: 0 }, { opacity: 1, duration: 3 })
+  .fromTo(".blog .slider-blog", { opacity: 0 }, { opacity: 1, duration: 3 })
+  .fromTo(".blog .button", { opacity: 0 }, { opacity: 1, duration: 3 });
+
+ScrollTrigger.create({
+  animation: tlBlog,
+  trigger: ".blog",
+  start: "top center",
+  end: "top center",
+  scrub: 2,
+  // markers: true
+});
+
 //--------------------------------------------------------------------------

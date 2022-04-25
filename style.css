@@ -38,12 +38,6 @@ h1{
     font-weight: 800;
 }
 
-h3{
-    font-size: 36px;
-    color: var(--warna-font);
-    font-weight: 700;
-}
-
 h4{
     font-size: 28px;
     font-weight:700;
@@ -1044,6 +1038,11 @@ h4{
     height: 150vh;
 }
 
+#ai-suggestion-new .pemancing{
+    font-size: 1px;
+    display: none;
+}
+
 #ai-suggestion-new .mt-180{
     margin-top: 180px;
 }
@@ -1326,16 +1325,16 @@ h4{
     max-height: 350px;
     opacity: 0;
     overflow: hidden;
-    animation: animate 9s linear infinite 0s;
+    animation: animate 15s linear infinite 0s;
 }
 .formSection .image-form img:nth-child(1) {
     animation-delay: 0s;
 }
 .formSection .image-form img:nth-child(2) {
-    animation-delay: 3s;
+    animation-delay: 5s;
 }
 .formSection .image-form img:nth-child(3) {
-    animation-delay: 6s;
+    animation-delay: 10s;
 }
 .formSection .card-form {
     box-shadow: -10px -10px 25px #f1f8ff, 10px 10px 15px rgba(0, 0, 0, 0.1);
@@ -2458,6 +2457,7 @@ footer .copyright span {
 
     #ai-suggestion-new .pemancing{
         font-size: 1px;
+        display: none;
     }
 
     /* final evaluation section */
@@ -2796,19 +2796,19 @@ footer .copyright span {
         font-size: 11px !important;
     }
     .formSection::after {
-        height: 130px;
-        border-radius: 0px 0px 70px 70px;
+        height: 130px !important;
+        border-radius: 0px 0px 70px 70px !important;
     }
     .formSection .image-form img {
-        max-height: 500px;
+        max-height: 500px !important;
     }
     .formSection .image-form .background-form {
-        height: 370px;
-        width: 330px;
+        height: 370px !important;
+        width: 330px !important;
     }
     .formSection {
-        display: flex;
-        align-items: center;
+        display: flex !important;
+        align-items: center !important;
     }
     footer {
         padding-top: 220px !important;
