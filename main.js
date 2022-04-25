@@ -282,7 +282,7 @@ ScrollTrigger.create({
   trigger: "#pelacakan",
   scrub:1,
   start: "10% top",
-  end: "+=3000",
+  end: "+=2000",
   snap: 1/5,
   pin:true,
 });
