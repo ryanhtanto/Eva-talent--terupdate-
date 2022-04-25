@@ -10,6 +10,13 @@ section{
     z-index: 1;
 }
 
+/* #pelacakan .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
 #nav{
     z-index: 2;
 }
@@ -883,12 +890,16 @@ h4{
     margin-top: 50px;
 }
 
+#pelacakan .text-section{
+    z-index: 7 !important;
+}
+
 #pelacakan .mask1{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
     width: 29vw;
-    height: 30vh;
+    height: 35vh;
     margin-top: -20px;
 }
 
@@ -896,9 +907,9 @@ h4{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
-    width: 24vw;
+    width: 29vw;
     height: 30vh;
-    /* margin-bottom: -40px; */
+    margin-top: 3vh;
 }
 
 #pelacakan .mask3{
@@ -908,10 +919,6 @@ h4{
     width: 29vw;
     height: 30vh;
     margin-top: -45px;
-}
-
-#pelacakan .text-section{
-    z-index: 7 !important;
 }
 
 #pelacakan .mask5{
@@ -1368,7 +1375,12 @@ h4{
     color: #ffffff;
     line-height: 30px;
 }
+
+.single-timeline-area .single-timeline-content .timeline-text h3 {
+    font-size: 28px;
+}
 .single-timeline-area .single-timeline-content .timeline-text h6 {
+    font-size: 18px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
@@ -1376,6 +1388,7 @@ h4{
     font-size: 14px;
     margin-bottom: 0;
 }
+
 .single-timeline-area .single-timeline-content:hover .timeline-icon,
 .single-timeline-area .single-timeline-content:focus .timeline-icon {
     background-color: #020710;
@@ -2084,23 +2097,27 @@ footer p{
     /* pelacakan section */
 
     #pelacakan .pelacakan-judul h1{
-        font-size: 45px;
+        font-size: 40px;
+    }
+
+    #pelacakan .timeline-section{
+        margin-top: 100px;
     }
 
     #pelacakan .pelacakan-judul p{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .single-timeline-area .timeline-date::before {
-        width: 50px;
-        height: 50px;
-        border: 15px solid #4e5150;
+        width: 40px;
+        height: 40px;
+        border: 12px solid #4e5150;
     }
     .single-timeline-area .timeline-date {
         position: absolute;
-        width: 90px;
+        width: 100px;
         height: 100%;
-        top: -45px;
+        top: -20px;
         left: 0;
         z-index: 1;
         display: -webkit-box;
@@ -2117,22 +2134,22 @@ footer p{
     }
 
     .single-timeline-area .timeline-date-1::after {
-        width: 2px;
+        width: 1px;
         height: 110%;
         content: "";
         background-color: black;
-        top: 80px !important;
-        right: 21px;
+        top: 70px !important;
+        right: 17px;
         z-index: 1;
     }
     
     .single-timeline-area .timeline-date-2::after {
-        width: 2px;
+        width: 1px;
         height: 200%;
         content: "";
         background-color: black;
         top: -15px;
-        right: 21px;
+        right: 17px;
         z-index: 1;
     }
 
@@ -2146,6 +2163,23 @@ footer p{
         margin-top: -20px;
     }
 
+    .single-timeline-area .single-timeline-content .timeline-text h3 {
+        font-size: 25px;
+    }
+
+    .single-timeline-area .single-timeline-content .timeline-text h6 {
+        font-size: 14px;
+    }
+
+    .single-timeline-area .single-timeline-content .timeline-text p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .single-timeline-area .single-timeline-content .timeline-text h1 {
+        font-size: 80px;
+    }
+
     .img-center{
         display: flex;
         align-items: center;
@@ -2153,10 +2187,12 @@ footer p{
       }
 
     .pelacakan-img{
-        width: 330px;
+        width: 250px;
         height: auto;
         margin-bottom: 40px;
     }
+
+    
 
     /* #pelacakan .mask1{
         width: 370px;
