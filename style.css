@@ -887,27 +887,27 @@ h4{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
-    width: 400px;
-    margin-bottom: 0px;
-    height: 20%;
+    width: 29vw;
+    height: 30vh;
+    margin-top: -20px;
 }
 
 #pelacakan .mask2{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
-    width: 400px;
-    margin-bottom: -40px;
-    height: 40%;
+    width: 24vw;
+    height: 30vh;
+    /* margin-bottom: -40px; */
 }
 
 #pelacakan .mask3{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
-    width: 400px;
-    margin-bottom: -40px;
-    height: 25%;
+    width: 29vw;
+    height: 30vh;
+    margin-top: -45px;
 }
 
 #pelacakan .text-section{
@@ -918,18 +918,18 @@ h4{
     position: absolute;
     z-index: 3;
     background-color: var(--warna1);
-    width: 650px;
+    width: 30vw;
     margin-bottom: -40px;
-    height: 1000px;
+    height: 80vh;
 }
 
 #pelacakan .mask6{
     position: absolute;
     z-index: 7;
     background-color: var(--warna1);
-    width: 450px;
-    margin-bottom: -40px;
-    height: 1200px;
+    width: 28vw;
+    /* margin-bottom: -40px; */
+    height: 100vh;
 }
 
 #quadrant{
@@ -2158,7 +2158,7 @@ footer p{
         margin-bottom: 40px;
     }
 
-    #pelacakan .mask1{
+    /* #pelacakan .mask1{
         width: 370px;
         top: 90px;
         height: 25%;
@@ -2174,19 +2174,19 @@ footer p{
         width: 370px;
         margin-bottom: -40px;
         height: 25%;
-    }
+    } */
     
-    #pelacakan .mask5{
+    /* #pelacakan .mask5{
         width: 400px;
         margin-bottom: -40px;
         height: 500px;
-    }
+    } */
     
-    #pelacakan .mask6{
+    /* #pelacakan .mask6{
         width: 400px;
         margin-bottom: -40px;
         height: 700px;
-    }
+    } */
 
     /* section analysis */
 

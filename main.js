@@ -319,7 +319,7 @@ pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "60%", color: '#fe
 pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "67%", color: '#fed25e'});
 pindah.to(".card-pindah-1", {x: "-16.2vw", duration: 5});
 if(window.innerWidth < 1337){
-  pindah.to(".card-pindah-1", {x: "-16.7vw", duration: 5});
+  pindah.to(".card-pindah-1", {x: "-110%", duration: 5});
 }
 pindah.to(".card-change-color-1", {backgroundColor:'#fed25e'});
 pindah.to(".pop-up-1", { scale: 0, transformOrigin: "center", duration: 1, delay: 0.7 });
