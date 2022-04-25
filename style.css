@@ -10,6 +10,14 @@ section{
     z-index: 1;
 }
 
+#pelacakan .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+}
+
 #nav{
     z-index: 2;
 }
@@ -280,7 +288,7 @@ h4{
     height: 480px;
     border-radius: 25px;
     background-color: var(--warna2);
-    margin-left: 22rem;
+    margin-left: 17rem;
 }
 
 #section1-1 .kart {
