@@ -1187,94 +1187,8 @@ h4{
     padding-top: 3rem;
 }
 
-/* marquee section */
-#section3-1 {
-    padding-bottom: 90px;
-    height: 100vh;
-    background-color: #e2e8f0;
-  }
-  
-  /* MARQUEE EVA */
-  #section3-1 .marquee {
-    position: relative;
-    width: 100vw;
-    height: 45vh;
-    overflow: hidden;
-  }
-  
-  #section3-1 .marquee2 {
-    position: relative;
-    width: 100vw;
-    height: 15vh;
-    overflow: hidden;
-  }
-  
-  #section3-1 .track {
-    position: absolute;
-    will-change: transform;
-    animation: marquee 24s linear infinite;
-  }
-  
-  #section3-1 .track2 {
-    position: absolute;
-    will-change: transform;
-    animation: marquee2 24s linear infinite;
-  }
-  
-  #section3-1 .content {
-    color: #2b2b29;
-    font-size: 200px;
-    font-weight: bold;
-    display: flex;
-  }
-  
-  #section3-1 .content2 {
-    text-align: center;
-    color: #2b2b29;
-    font-size: 96px;
-    font-weight: 800;
-    display: flex;
-    text-transform: uppercase;
-    letter-spacing: 0.5vw;
-    white-space: nowrap;
-  }
-  
-  #section3-1 .line {
-    background-color: #ffcf54;
-    width: 1vw;
-    height: 30vh;
-    margin: 4vw 5vw;
-    border-radius: 20px;
-    box-shadow: 13px 13px 15px 0 rgba(0, 0, 0, 0.1);
-  }
-  
-  #section3-1 .line2 {
-    background-color: #ffcf54;
-    width: 1vw;
-    height: 8vh;
-    margin: 2vh 5vw;
-    border-radius: 20px;
-    box-shadow: 13px 13px 15px 0 rgba(0, 0, 0, 0.1);
-  }
-  
-  
-  @keyframes marquee {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
-  }
-  
-  @keyframes marquee2 {
-    from {
-        transform: translateX(-50%);
-    }
-    to {
-        transform: translateX(0%);
-    }
-  }
+
+
 
 .formSection {
     font-family: "Open Sans", sans-serif;
@@ -2350,7 +2264,11 @@ footer p{
     /* gap analysis */
 
     #ai-suggestion-new .mt-180{
-        margin-top: 110px;
+        margin-top: 70px;
+    }
+
+    #ai-suggestion-new .mt-50{
+        margin-top: -20px;
     }
 
     #ai-suggestion-new .content-2{
