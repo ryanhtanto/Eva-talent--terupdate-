@@ -739,7 +739,7 @@ h4{
     background-color: var(--warna1);
     width: 200px;
     height: 60%;
-    bottom:-20px;
+    bottom:-110px;
 }
 /* .masking3{
     position: absolute;
@@ -755,7 +755,7 @@ h4{
     background-color: var(--warna1);
     width: 700px;
     height: 30%;
-    bottom: -20px;
+    bottom: -60px;
 }
 .text-second{
     position: absolute;
@@ -769,7 +769,7 @@ h4{
 
 .card-ai-one{
     width: 700px;
-    margin-top: 80px;
+    margin-top: 55px;
     /* position: absolute; */
     z-index: 11;
     /* background-color: #113c2e; */
@@ -777,7 +777,7 @@ h4{
 
 .card-ai-two{
     width: 700px;
-    bottom: -50px;
+    margin-top: -12px;
     /* position: absolute; */
     z-index: 15;
     /* background-color: #113c2e; */
@@ -841,15 +841,16 @@ h4{
     .masking2{
         width: 200px;
         height: 60%;
-        bottom:-20px;
+        bottom:-120px;
     }
     .masking4{
         background-color: var(--warna1);
         width: 570px;
         height: 30%;
-        bottom: -20px;
+        bottom: -50px;
     }
 }
+
 
 /* SECTION FINAL EVALUATION */
 
