@@ -282,7 +282,8 @@ ScrollTrigger.create({
   trigger: "#pelacakan",
   scrub:1,
   start: "10% top",
-  end: "+=4000",
+  end: "+=3000",
+  snap: 1/5,
   pin:true,
 });
 
@@ -332,7 +333,7 @@ pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "74%", color: '#
 pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "65%", color: '#fed25e'});
 pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "51%", color: '#fed25e'});
 pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "42%", color: '#ff8066'});
-pindah.to(".card-pindah-2", {x: "48.2vw", duration: 5});
+pindah.to(".card-pindah-2", {x: "330%", duration: 5});
 if(window.innerWidth < 1337){
   pindah.to(".card-pindah-2", {x: "50.2vw", duration: 5});
 }
