@@ -10,8 +10,6 @@ section{
     z-index: 1;
 }
 
-
-
 #nav{
     z-index: 2;
 }
@@ -955,6 +953,13 @@ h4{
     box-shadow: #e2e8f0 0px 10px;
 }
 
+#quadrant .tengah {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #quadrant .card{
     border-radius: 15px;
 }
@@ -996,7 +1001,7 @@ h4{
 #quadrant .pop-up-1{
     position: absolute;
     width: 220px;
-    bottom: 240px;
+    margin-top: 120px;
     margin-left: 80px;
     display: none;
 }
@@ -1004,9 +1009,9 @@ h4{
 #quadrant .pop-up-2{
     position: absolute;
     width: 220px;
-    bottom: 310px;
+    margin-top: 80px;
     display: none;
-    right: 80px;
+    margin-left: 120px;
     z-index: -1;
 }
 
@@ -2886,6 +2891,9 @@ footer p{
 }
 
 @media (min-width: 1401px) {
+    #section1-1 .bgorang{
+        margin-left: 22rem;
+    }
     #section1-1 .bgorang, .kart1, .kart2, .kart3, .kart4, .kart5{
         margin-top: 2.5rem;
     }
@@ -2902,6 +2910,9 @@ footer p{
         width: 330px;
         height: auto;
         margin-bottom: -50px;
+    }
+    #pelacakan .pelacakan-judul{
+        margin-top: 80px !important;
     }
     .single-timeline-area {
         position: relative;
