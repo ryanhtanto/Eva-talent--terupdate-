@@ -457,8 +457,24 @@ observer4.observe(cardFormPoint);
 /*ScrollTrigger mask animation*/
 gsap.registerPlugin(ScrollTrigger);
 
+if (window.matchMedia("(min-width: 992px)").matches) {
+  const tl5 = gsap.timeline();
+  tl5.fromTo(".formSection .imageforForm", { y: 500 }, { y: 0 }).fromTo(".formSection .cardforForm", { x: 1000 }, { x: 0 }, "<");
+
+  ScrollTrigger.create({
+    animation: tl5,
+    trigger: ".formSection",
+    start: "top center",
+    end: "top center",
+    toggleActions: "play none none none",
+    scrub: 1,
+    // markers: true,
+  });
+}
+
+
 if(window.innerWidth > 992){
-  
+
 }
 /*navbar*/
 $(document).ready(function () {

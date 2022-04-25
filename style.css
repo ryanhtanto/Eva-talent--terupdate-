@@ -1308,15 +1308,7 @@ h4{
     width: 100%;
     z-index: 0;
 }
-.formSection img.element-footer {
-    position: absolute;
-    top: 99%;
-    left: 0;
-    right: 0;
-    max-height: 100px;
-    width: 100%;
-    z-index: 3;
-}
+
   
 /* Animate Fade for People At Form Section */
 .formSection .image-form img {
@@ -1338,7 +1330,6 @@ h4{
 }
 .formSection .card-form {
     box-shadow: -10px -10px 25px #f1f8ff, 10px 10px 15px rgba(0, 0, 0, 0.1);
-    transform: translateX(100%);
     transition: 2s;
     background-color: white;
     border-radius: 20px;
@@ -1984,88 +1975,84 @@ footer p{
     .formSection input, .formSection select {
         font-size: 12px;
     }
-
-}
-
-@media (min-width: 768px) {
     #section3-4 {
-      height: 620px !important;
+        height: 620px !important;
     }
     footer {
-        padding-top: 80px;
+          padding-top: 80px;
     }
     footer .grid-container {
-        grid-template-rows: 360px 440px 420px !important;
-        grid-template-columns: 1fr !important;
-        grid-template-areas:
-          "join"
-          "social"
-          "image" !important;
+          grid-template-rows: 360px 440px 420px !important;
+          grid-template-columns: 1fr !important;
+          grid-template-areas:
+            "join"
+            "social"
+            "image" !important;
     }
     footer .grid-container .konten {
-
-        font-size: 17px !important;
+  
+          font-size: 17px !important;
     }
     footer .grid-container .konten span.subjudul {
-        font-size: 22px !important;
+          font-size: 22px !important;
     }
     footer .copyright {
-        font-size: 14px !important;
+          font-size: 14px !important;
     }
     footer .grid-container .join {
-        text-align: start !important;
-        /* margin-bottom: 30px; */
+          text-align: start !important;
+          /* margin-bottom: 30px; */
     }
     footer .grid-container .join h2 {
-        font-size: 34px !important;
+          font-size: 34px !important;
     }
     footer .grid-container .join button {
-        font-size: 18px !important;
-        margin: 0;
+          font-size: 18px !important;
+          margin: 0;
     }
     footer .image .image-list img:not(.footer-people) {
-        max-height: 190px  !important;
+          max-height: 190px  !important;
     }
     footer img.eva-rec {
-        transform: translateX(35%) translateY(-50%) !important;
+          transform: translateX(35%) translateY(-50%) !important;
     }
     footer img.eva-talent {
-        transform: translateX(-35%) translateY(-50%) !important;
+          transform: translateX(-35%) translateY(-50%) !important;
     }
     footer img.eva-essen {
-        transform: translateX(-60%) translateY(-40%) !important;
+          transform: translateX(-60%) translateY(-40%) !important;
     }
     footer span.eva-essen-span {
-        transform: translateX(-458%) translateY(47%) !important;
-        min-height: 80px !important;
-        min-width: 80px !important;
+          transform: translateX(-458%) translateY(47%) !important;
+          min-height: 80px !important;
+          min-width: 80px !important;
     }
     footer span.eva-talent-span {
-        transform: translateX(-298%) translateY(-120%) !important;
-        min-height: 80px !important;
-        min-width: 80px !important;
+          transform: translateX(-298%) translateY(-120%) !important;
+          min-height: 80px !important;
+          min-width: 80px !important;
     }
     footer span.eva-rec-span {
-        transform: translateX(-33%) translateY(-266%) !important;
-        min-height: 80px !important;
-        min-width: 80px !important;
+          transform: translateX(-33%) translateY(-266%) !important;
+          min-height: 80px !important;
+          min-width: 80px !important;
     }
     footer img.white1 {
-        transform: translateX(20%) translateY(-53%) !important;
-        min-height: 260px !important;
+          transform: translateX(20%) translateY(-53%) !important;
+          min-height: 260px !important;
     }
     footer img.white2 {
-        transform: translateX(-50%) translateY(-12%) !important;
-        min-height: 280px !important;
+          transform: translateX(-50%) translateY(-12%) !important;
+          min-height: 280px !important;
     }
     footer img.footer-people {
-        max-height: 430px !important;
-        transform: translateX(78%) !important;
+          max-height: 430px !important;
+          transform: translateX(78%) !important;
     }
     footer .copyright span {
-        font-size: 16px !important;
-        padding: 20px 30px !important;
-        margin-bottom: 20px !important;
+          font-size: 16px !important;
+          padding: 20px 30px !important;
+          margin-bottom: 20px !important;
     }
 }
 
@@ -2608,6 +2595,16 @@ footer p{
     }
     .formSection {
         margin-bottom: 140vh;
+        padding-bottom: 90px !important;
+        border-bottom-left-radius: 152px !important;
+        border-bottom-right-radius: 152px !important;
+    }
+    .formSection .card-form h3:nth-child(1) {
+        font-weight: 900;
+        font-size: 24px;
+    }
+    .formSection .back-button {
+        bottom: -85px;
     }
     .formSection label {
         font-size: 13px;
@@ -2626,6 +2623,18 @@ footer p{
     .formSection .image-form img {
         max-height: 480px;
         bottom: 10%;
+    }
+    .formSection .image-form img:nth-child(1) {
+        transform: translateX(10%);
+    }
+    .formSection .image-form .background-form {
+        position: absolute;
+        z-index: 1;
+        background-color: #ffcf54;
+        height: 360px;
+        width: 315px;
+        bottom: 10%;
+        border-radius: 20px;
     }
     footer {
         /* height: 100vh; */
@@ -3246,6 +3255,11 @@ footer p{
       line-height: 38.13px;
       letter-spacing: 0.05em;
     } */
+    .formSection {
+        padding-bottom: 50px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
 }
 
 
