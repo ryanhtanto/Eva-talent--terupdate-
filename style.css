@@ -637,58 +637,6 @@ h4{
     border-radius: 15px !important;
 }
 
-.accordion{
-    height: auto;
-    margin-top: 50px;
-}
-
-.accor-img{
-    margin-right: 15px !important;
-}
-
-.accordion-button:focus {
-    box-shadow: none !important;
-    border-color: rgba(83, 82, 82, 0.125) !important;
-    background-color: #e2e8f0 !important; 
-    color: #676560 !important;
-}
-
-.accordion-button{
-    box-shadow: none !important;
-    border-color: rgba(0,0,0,.125) !important;
-    color: #676560 !important;
-    font-size: 20px !important;
-    background-color: #e2e8f0 !important; 
-}
-
-.accordion-body{
-    background-color: #ffd365 !important;
-    color: black !important;
-    margin-bottom: 0px !important;
-    border-radius: 10px;
-}
-
-.accordion-body p{
-    margin-bottom: 0px !important;
-}
-
-.accordion-button:after {
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23676560'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
-}
-
-.accordion-header{
-    border-bottom: 2px solid #4a70a9 !important;
-    margin-bottom: 15px !important;
-}
-
-.accordion{
-    border: 1px solid transparent !important;
-}
-
-.accordion-item{
-    background-color: #e2e8f0 !important;
-}
-
 #evaluation{
     background-color: #edf2f7;
 }
@@ -1061,6 +1009,10 @@ h4{
     height: 150vh;
 }
 
+.gap-analisis-judul{
+    font-size: 48px
+}
+
 #ai-suggestion-new .pemancing{
     font-size: 1px;
     display: none;
@@ -1068,6 +1020,28 @@ h4{
 
 #ai-suggestion-new .mt-180{
     margin-top: 180px;
+}
+
+#ai-suggestion-new .card-talent h4{
+    font-size: 24px;
+}
+
+#ai-suggestion-new .card-talent h6{
+    font-size: 16px;
+}
+
+#ai-suggestion-new .content2-1 p{
+    font-size: 20px;
+}
+
+#ai-suggestion-new .bg1{
+    /* width: 320px;
+    height: auto; */
+    position: absolute;
+}
+
+#ai-suggestion-new .content2-1 h2{
+    font-size: 28px;
 }
 
 #ai-suggestion-new .underline{
@@ -1084,11 +1058,6 @@ h4{
     border-radius: 10px !important;
 }
 
-#ai-suggestion-new .people{
-    transform: scale(0.85);
-    transform-origin: center bottom;
-}
-
 #ai-suggestion-new .img-ai{
     width: 80%;
     position: absolute;
@@ -1097,7 +1066,7 @@ h4{
 }
 
 #ai-suggestion-new .img-ai-3{
-    width: 80%;
+    width: 10%;
     position: absolute;
     left: 50px;
     bottom: 92px;
@@ -2326,25 +2295,112 @@ footer p{
     /* gap analysis */
 
     #ai-suggestion-new .mt-180{
-        margin-top: 70px;
+        margin-top: 120px;
+    }
+
+    #ai-suggestion-new .card-talent .card-body{
+        background-color: transparent;
+    }
+
+    #ai-suggestion-new .card-talent h4{
+        font-size: 22px;
+    }
+    
+    #ai-suggestion-new .card-talent h6{
+        font-size: 14px;
+    }
+
+    #ai-suggestion-new .content2-1 p{
+        font-size: 15px;
+    }
+
+    #ai-suggestion-new .bg1{
+        width: 250px;
+        height: auto;
+        position: absolute;
+    }
+
+    #ai-suggestion-new .bg2{
+        width: 300px;
+        height: auto;
+    }
+
+    #ai-suggestion-new .talent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #ai-suggestion-new .mt-50{
-        margin-top: -20px;
+        margin-top: 20px;
+    }
+
+    #ai-suggestion-new .content2-1 h2{
+        font-size: 20px;
     }
 
     #ai-suggestion-new .content-2{
-        top: 12%;
+        margin-top: -380px;
     }
 
     #ai-suggestion-new .content2-2{
-        top: 15%;
+        margin-top: -370px !important;
     }
 
     #ai-suggestion-new .mask7{
-        width: 450px;
+        width: 420px;
         height: 600px;
-        bottom: 280px;
+        bottom: 260px;
+        margin-left: 20px;
+    }
+
+    .progress{
+        height: 30px !important;
+        margin-left: 25px !important;
+        margin-top: 20px !important;
+        width: 300px !important;
+        border-radius: 15px !important;
+    }
+    
+    .progress-bar{
+        color: black !important;
+        font-weight: bold;
+    }
+    
+    .progress-bar-1{
+        background-color: #ffd365 !important;
+        text-align: left !important;
+        padding-left: 20px !important;
+        border-radius: 15px !important;
+    }
+    
+    .progress-bar-2{
+        background-color: #ffd365 !important;
+        text-align: left !important;
+        padding-left: 20px !important;
+        border-radius: 15px !important;
+    }
+    
+    .progress-bar-3{
+        background-color: #ffd365 !important;
+        text-align: left !important;
+        padding-left: 20px !important;
+        border-radius: 15px !important;
+    }
+    
+    .progress-bar-4{
+        background-color: #ffd365 !important;
+        text-align: left !important;
+        padding-left: 20px !important;
+        border-radius: 15px !important;
+    }
+
+    /* #ai-suggestion-new .content-2 h1{
+        font-size: 28px;
+    } */
+
+    #ai-suggestion-new .card-talent-inner{
+        margin-top: 10px;
     }
 
     /* .content2-1{
@@ -2369,47 +2425,51 @@ footer p{
     #ai-suggestion-new .img-ai{
         position: absolute;
         /* width: 80%; */
-        width: 83%;
-        left: 16px;
-        bottom: 60px;
+        width: 73%;
+        margin-left: -15px;
+        margin-bottom: -30px;
     }
 
     #ai-suggestion-new .david-1{
-        width: 80%;
-        left: 35px;
+        width: 63%;
+        margin-left: 25px;
+        margin-bottom: -15px;
     }
 
     #ai-suggestion-new .img-ai-2{
         /* width: 60%; */
-        width: 80%;
-        left: 60px;
-        bottom: 63px;
+        width: 64%;
+        margin-left: 15px;
+        margin-bottom: -13px;
     }
 
     #ai-suggestion-new .fransiska-2{
-        width: 75%;
+        width: 64%;
+        margin-bottom: -30px;
     }
     
     #ai-suggestion-new .img-ai-3{
         /* width: 60%; */
-        width: 79%;
-        left: 35px;
-        bottom: 62px;
-    }
-    #ai-suggestion-new .img-ai-4{
-        /* width: 60%; */
-        width: 68%;
-        left: 85px;
-        bottom: 62px;
+        width: 63%;
+        margin-left: 15px;
+        margin-bottom:-15px;
     }
 
+    #ai-suggestion-new .img-ai-4{
+        /* width: 60%; */
+        width: 60%;
+        margin-left: 8px;
+        margin-bottom: -30px;
+    }
+
+
     .gap-analisis-judul{
-        /* font-size: 42px; */
+        /* font-size: 48px */
         font-size: 35px;
     }
     
     .gap-analisis-desc{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     #ai-suggestion-new .mask8{
