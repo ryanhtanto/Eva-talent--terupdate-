@@ -1692,7 +1692,7 @@ footer span.eva-rec-span {
 
 #ai-suggestion-new .content-2{
     position: absolute !important;
-    top: -450px;
+    margin-top: -450px;
 }
 
 .content-2 p{
@@ -1701,7 +1701,7 @@ footer span.eva-rec-span {
 
 #ai-suggestion-new .content2-2{
     position: absolute !important;
-    top: -450px;
+    margin-top: -450px;
 }
 
 #ai-suggestion-new .content2-2 .card-body{
