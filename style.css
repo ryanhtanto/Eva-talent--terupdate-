@@ -2338,7 +2338,7 @@ footer p{
     }
 
     #ai-suggestion-new .content-2{
-        margin-top: -380px;
+        margin-top: -400px !important;
     }
 
     #ai-suggestion-new .content2-2{
@@ -2350,6 +2350,12 @@ footer p{
         height: 600px;
         bottom: 260px;
         margin-left: 20px;
+    }
+
+    #ai-suggestion-new .icon-progres{
+        width: 60px !important;
+        height: 60px !important;
+        margin-top: 0px !important;
     }
 
     .progress{
@@ -2430,7 +2436,7 @@ footer p{
 
     #ai-suggestion-new .david-1{
         width: 63%;
-        margin-left: 25px;
+        margin-left: -15px;
         margin-bottom: -15px;
     }
 
@@ -2441,6 +2447,18 @@ footer p{
         margin-bottom: -13px;
     }
 
+    #ai-suggestion-new .img-ai-5{
+        width: 63%;
+        margin-bottom: -30px;
+        margin-left: 20px;
+    }
+
+    #ai-suggestion-new .img-ai-6{
+        width: 70%;
+        margin-left: -40px;
+        margin-top: -5px;
+    }
+    
     #ai-suggestion-new .fransiska-2{
         width: 64%;
         margin-bottom: -30px;
@@ -2450,14 +2468,14 @@ footer p{
         /* width: 60%; */
         width: 63%;
         margin-left: 15px;
-        margin-bottom:-15px;
+        margin-bottom: -30px;
     }
 
     #ai-suggestion-new .img-ai-4{
         /* width: 60%; */
         width: 60%;
         margin-left: 8px;
-        margin-bottom: -30px;
+        margin-bottom: -20px;
     }
 
 
