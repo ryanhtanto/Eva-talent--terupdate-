@@ -2974,6 +2974,9 @@ footer p{
 }
 
 @media (min-width: 1401px) {
+    #section1-1 .mask1 {
+        width: 42vw;
+    }
     #section1-1 .bgorang{
         margin-left: 22rem;
     }
