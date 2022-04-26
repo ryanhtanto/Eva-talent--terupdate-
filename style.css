@@ -333,6 +333,7 @@ h4{
 }
 
 #section1-1 .mask1-2 {
+    margin-top: 30px;
     height: 20%;
 }
 
@@ -340,7 +341,7 @@ h4{
     position: absolute;
     z-index: 6;
     background-color: var(--warna5);
-    width: 100%;
+    width: 50%;
     height: 100%;
     margin-left: 300px;
 }
@@ -2002,10 +2003,13 @@ footer p{
         position: absolute;
         z-index: 4;
         background-color: var(--warna5);
-        width: 26vw;
-        height: 25%;
+        width: 39vw;
+        height: 35%;
         margin-top: -150px;
-        /* border: solid; */
+    }
+
+    #section1-1 .mask1-2{
+        display: none;
     }
 
     #section1-1 .mask3 {
@@ -2187,37 +2191,13 @@ footer p{
         margin-bottom: 40px;
     }
 
-    
-
-    /* #pelacakan .mask1{
-        width: 370px;
-        top: 90px;
-        height: 25%;
-    }
-    
     #pelacakan .mask2{
-        width: 370px;
-        margin-bottom: -40px;
-        height: 30%;
+        width: 35vw;
     }
-    
+
     #pelacakan .mask3{
-        width: 370px;
-        margin-bottom: -40px;
-        height: 25%;
-    } */
-    
-    /* #pelacakan .mask5{
-        width: 400px;
-        margin-bottom: -40px;
-        height: 500px;
-    } */
-    
-    /* #pelacakan .mask6{
-        width: 400px;
-        margin-bottom: -40px;
-        height: 700px;
-    } */
+        width: 31vw;
+    }
 
     /* section analysis */
 
