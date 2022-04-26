@@ -342,86 +342,42 @@ pindah.to(".card-change-color-2", {backgroundColor:'#ff8066'});
 
 /*section horizontal scroll (ai suggestion + skill overview)*/
 
-horizontal = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#ai-suggestion-new",
-    pin: true,
-    scrub: 1,
-    start: "10% top",
-    end: "+=3000",
-    // markers:true,
-  },
-});
+const horizontal = gsap.timeline();
+horizontal.to("#ai-suggestion-new .mask7", { delay: 0.5, scaleY: 0, transformOrigin: "top bottom", duration: 1})
+.to("#ai-suggestion-new .people", 1, { scale: 1, transformOrigin: "center bottom", duration: 3 })
+.to("#myBar", {width: "25%", duration: 1})
+.to(".circlebar", {scale: 0, duration: 1, delay: 2}).to(".circlebar", {opacity: 1, scale: 1, duration: 1});
 
-const people = gsap.timeline();
-people.to("#ai-suggestion-new .people", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people", { scale: 1.1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people", { scale: 1, opacity: 1, transformOrigin: "center bottom", duration: 1 });
+horizontal.from(".anim-kiri, .anim-kiri-1", { opacity:1, x: "-100vh", stagger:0.1, duration: 5})
+.to(".anim-kiri, .anim-kiri-1", { opacity:0, x: "-100vh", stagger:0.1, duration: 5})
+.from(".anim-kanan", { opacity:1, x: "100vh", stagger:0.1, duration: 2})
+.to(".anim-kanan", { opacity:0, x: "100vh", stagger:0.1, duration: 2})
+.to("#myBar", {width: "50%", duration: 1});
 
-ScrollTrigger.create({
-    animation: people,
-    trigger: "#ai-suggestion-new",
-    start: "40% bottom",
-    end: "40% bottom",
-    toggleActions: "restart none reverse none",
-    // markers: true
-});
+horizontal.to("#ai-suggestion-new .people", { opacity: 0, scale: 1, transformOrigin: "center bottom", duration: 1 })
+.to("#ai-suggestion-new .people2", { scale: 0.90, transformOrigin: "center bottom", duration: 1 })
+.to("#ai-suggestion-new .people2", { scale: 1, transformOrigin: "center bottom", duration: 1.5 })
+.to("#ai-suggestion-new .people2", { opacity: 1, transformOrigin: "center bottom", duration: 1 })
+.to("#myBar", {width: "75%", duration: 1});
 
-horizontal.to("#ai-suggestion-new .mask7", {
-  delay: 0.5,
-  scaleY: 0,
-  transformOrigin: "top bottom",
-  duration: 1,
-});
-
-const circle = gsap.timeline();
-circle.to(".circlebar", {scale: 0, duration: 1, delay: 2}).to(".circlebar", {opacity: 1, scale: 1, duration: 1});
+horizontal.from(".anim-kiri-after", { opacity:0, x: "-130vh", stagger:0.1, duration: 1})
+.to(".anim-kiri-after", { opacity:1, x: "0vh", stagger:0.1, duration: 1})
+.from(".progress-bar-1, .progress-bar-2, .progress-bar-3, .progress-bar-4", {width: "0%", duration: 1})
+.to(".progress-bar-1", {width: "90%", duration: 1})
+.to(".progress-bar-2", {width: "75%", duration: 1})
+.to(".progress-bar-3", {width: "60%", duration: 1})
+.to(".progress-bar-4", {width: "50%", duration: 1})
+.from(".anim-kanan-after", { opacity:0, x: "100vh", stagger:0.1, duration: 1})
+.to(".anim-kanan-after", { opacity:1, x: "0vh", stagger:0.1, duration: 1})
+.to("#myBar", {width: "100%", duration: 1});
 
 ScrollTrigger.create({
-  animation: circle,
-  trigger: "#ai-suggestion-new",
-  start: "40% bottom",
-  end: "40% bottom",
-  toggleActions: "restart none reverse none",
-  // markers: true
-});
-
-horizontal.to("#myBar", {width: "15%", duration: 1}).to("#myBar", {width: "25%", duration: 1});
-horizontal.to("#myBar", {width: "50%", duration: 1});
-horizontal.to("#myBar", {width: "75%", duration: 1});
-horizontal.to("#myBar", {width: "100%", duration: 1});
-
-const animKiri = gsap.timeline();
-animKiri.from(".anim-kiri, .anim-kiri-1", { opacity:1, x: "-100vh", stagger:0.1, duration: 5});
-animKiri.to(".anim-kiri, .anim-kiri-1", { opacity:0, x: "-100vh", stagger:0.1, duration: 5});
-animKiri.to("#ai-suggestion-new .people", { opacity: 0, scale: 1, transformOrigin: "center bottom", duration: 1 });
-animKiri.to("#ai-suggestion-new .people2", { scale: 0.90, transformOrigin: "center bottom", duration: 1 }).to("#ai-suggestion-new .people2", { scale: 1, transformOrigin: "center bottom", duration: 1.5 }).to("#ai-suggestion-new .people2", { opacity: 1, transformOrigin: "center bottom", duration: 1 });
-animKiri.from(".anim-kiri-after", { opacity:0, x: "-130vh", stagger:0.1, duration: 1});
-animKiri.to(".anim-kiri-after", { opacity:1, x: "0vh", stagger:0.1, duration: 1});
-animKiri.from(".progress-bar-1, .progress-bar-2, .progress-bar-3, .progress-bar-4", {width: "0%", duration: 1});
-animKiri.to(".progress-bar-1", {width: "90%", duration: 1});
-animKiri.to(".progress-bar-2", {width: "75%", duration: 1});
-animKiri.to(".progress-bar-3", {width: "60%", duration: 1});
-animKiri.to(".progress-bar-4", {width: "50%", duration: 1});
-ScrollTrigger.create({
-  animation: animKiri,
+  animation: horizontal,
   trigger: "#ai-suggestion-new",
   scrub:1,
+  snap: 1/4,
   start: "10% top",
-  end: "+=3000",
-  pin:true,
-});
-
-const animKanan = gsap.timeline();
-animKanan.from(".anim-kanan", { opacity:1, x: "100vh", stagger:0.1, duration: 2});
-animKanan.to(".anim-kanan", { opacity:0, x: "100vh", stagger:0.1, duration: 2});
-animKanan.from(".anim-kanan-after", { opacity:0, x: "100vh", stagger:0.1, duration: 1});
-animKanan.to(".anim-kanan-after", { opacity:1, x: "0vh", stagger:0.1, duration: 1});
-
-ScrollTrigger.create({
-  animation: animKanan,
-  trigger: "#ai-suggestion-new",
-  scrub:1,
-  start: "10% top",
-  end: "+=3000",
+  end: "+=10000",
   pin:true,
 });
 
