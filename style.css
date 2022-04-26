@@ -1083,6 +1083,11 @@ h4{
     border-radius: 10px !important;
 }
 
+#ai-suggestion-new .people{
+    transform: scale(0.85);
+    transform-origin: center bottom;
+}
+
 #ai-suggestion-new .img-ai{
     width: 80%;
     position: absolute;
