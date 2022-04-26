@@ -200,6 +200,7 @@ h4{
 /* Section 1-1 */
 .tombol-panah {
     transform: translate(0px, -70%);
+    margin-top: -25px;
 }
 
 #section1-1 {
@@ -1385,7 +1386,7 @@ h4{
     position: relative;
     z-index: 1;
     padding: 20px 30px 25px;
-    min-width: 300px;
+    min-width: 310px !important;
     border-radius: 6px;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -1665,12 +1666,13 @@ footer span.eva-rec-span {
 }
 
 #ai-suggestion-new .trackbar {
-    width: 80%;
+    width: 100%;
     height: 10px;
     border: none;
     background-color: #C4C4C4;
     border-radius: 8px;
     display: flex;
+    margin-top: -55px;
 }
 
 #ai-suggestion-new .scrollbar {
@@ -1697,7 +1699,7 @@ footer span.eva-rec-span {
 
 #ai-suggestion-new .content-2{
     position: absolute !important;
-    margin-top: -450px;
+    margin-top: -550px;
 }
 
 .content-2 p{
