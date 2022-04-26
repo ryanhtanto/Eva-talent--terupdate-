@@ -1055,7 +1055,79 @@ h4{
 }
 
 
+#ai-suggestion-new{
+    background-color: #e2e8f0;
+    height: 150vh;
+}
 
+#ai-suggestion-new .pemancing{
+    font-size: 1px;
+    display: none;
+}
+
+#ai-suggestion-new .mt-180{
+    margin-top: 180px;
+}
+
+#ai-suggestion-new .underline{
+    text-decoration: 5px underline #FFD365;
+}   
+
+#ai-suggestion-new  .card{
+    border-radius: 10px !important;
+}
+
+#ai-suggestion-new .card-body{
+    padding-bottom: 0px !important;
+    background-color: #e2e8f0;
+    border-radius: 10px !important;
+}
+
+#ai-suggestion-new .img-ai{
+    width: 80%;
+    position: absolute;
+    left: 40px;
+    bottom: 92px;
+}
+
+#ai-suggestion-new .img-ai-3{
+    width: 80%;
+    position: absolute;
+    left: 50px;
+    bottom: 92px;
+}
+
+#ai-suggestion-new .img-ai-4{
+    width: 70%;
+    position: absolute;
+    left: 75px;
+    bottom: 92px;
+}
+
+#ai-suggestion-new .img-ai-2{
+    width: 80%;
+    position: absolute;
+    left: 60px;
+    bottom: 90px;
+}
+
+.content2-2 .card-body img{
+    width: 20%;
+    height: 20%;
+}
+
+.card-talent h4{
+    font-size: 42px;
+}
+
+.card-talent h6{
+    font-size: 28px;
+}
+
+.card-talent .card{
+    width: 27rem; 
+    background-color: transparent;
+} 
 
 #section3-4 {
     position: relative;
@@ -1576,7 +1648,70 @@ footer span.eva-rec-span {
   }
 }
 
+/* masking pelacakan */
 
+#ai-suggestion-new .mask7{
+    position: absolute;
+    z-index: 3;
+    background-color: #e2e8f0;
+    width: 520px;
+    bottom: 350px;
+    height: 620px;
+}
+
+#ai-suggestion-new .trackbar {
+    width: 80%;
+    height: 10px;
+    border: none;
+    background-color: #C4C4C4;
+    border-radius: 8px;
+    display: flex;
+}
+
+#ai-suggestion-new .scrollbar {
+    width: 0;
+    height: 10px;
+    border: none;
+    background-color: var(--warna2);
+    border-radius: 8px;
+}
+
+#ai-suggestion-new .circlebar {
+    background-image: url("images/section6/icon-bar.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -35px;
+    margin-left: -20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: none;
+    opacity: 0;
+}
+
+#ai-suggestion-new .content-2{
+    position: absolute !important;
+    top: -450px;
+}
+
+.content-2 p{
+    margin-bottom: 70px;
+}
+
+#ai-suggestion-new .content2-2{
+    position: absolute !important;
+    top: -450px;
+}
+
+#ai-suggestion-new .content2-2 .card-body{
+    padding: 1rem !important;
+    padding-bottom: 0px !important;
+}
+
+#ai-suggestion-new .content2-2 .card{
+    width: 305px !important;
+}
 
 /*section blog*/
 .blog {
@@ -1653,148 +1788,6 @@ footer span.eva-rec-span {
 
 footer p{
     font-size: 16px;
-}
-
-
-/* gap analysis */
-
-#ai-suggestion-new{
-    background-color: #e2e8f0;
-    height: 150vh;
-}
-
-#ai-suggestion-new .pemancing{
-    font-size: 1px;
-    display: none;
-}
-
-#ai-suggestion-new .mt-180{
-    margin-top: 180px;
-}
-
-#ai-suggestion-new .underline{
-    text-decoration: 5px underline #FFD365;
-}   
-
-#ai-suggestion-new  .card{
-    border-radius: 10px !important;
-}
-
-#ai-suggestion-new .card-body{
-    padding-bottom: 0px !important;
-    background-color: #e2e8f0;
-    border-radius: 10px !important;
-}
-
-#ai-suggestion-new .img-ai{
-    width: 80%;
-    position: absolute;
-    left: 40px;
-    bottom: 92px;
-}
-
-#ai-suggestion-new .img-ai-3{
-    width: 80%;
-    position: absolute;
-    left: 50px;
-    bottom: 92px;
-}
-
-#ai-suggestion-new .img-ai-4{
-    width: 70%;
-    position: absolute;
-    left: 75px;
-    bottom: 92px;
-}
-
-#ai-suggestion-new .img-ai-2{
-    width: 80%;
-    position: absolute;
-    left: 60px;
-    bottom: 90px;
-}
-
-.content2-2 .card-body img{
-    width: 20%;
-    height: 20%;
-}
-
-.card-talent h4{
-    font-size: 42px;
-}
-
-.card-talent h6{
-    font-size: 28px;
-}
-
-.card-talent .card{
-    width: 27rem; 
-    background-color: transparent;
-} 
-
-/* masking pelacakan */
-
-#ai-suggestion-new .mask7{
-    position: absolute;
-    z-index: 3;
-    background-color: #e2e8f0;
-    width: 520px;
-    bottom: 350px;
-    height: 620px;
-}
-
-#ai-suggestion-new .trackbar {
-    width: 80%;
-    height: 10px;
-    border: none;
-    background-color: #C4C4C4;
-    border-radius: 8px;
-    display: flex;
-}
-
-#ai-suggestion-new .scrollbar {
-    width: 0;
-    height: 10px;
-    border: none;
-    background-color: var(--warna2);
-    border-radius: 8px;
-}
-
-#ai-suggestion-new .circlebar {
-    background-image: url("images/section6/icon-bar.webp");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: -35px;
-    margin-left: -20px;
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    border: none;
-    opacity: 0;
-}
-
-#ai-suggestion-new .content-2{
-    position: absolute !important;
-    top: -450px;
-}
-
-.content-2 p{
-    margin-bottom: 70px;
-}
-
-#ai-suggestion-new .content2-2{
-    position: absolute !important;
-    top: -450px;
-}
-
-#ai-suggestion-new .content2-2 .card-body{
-    padding: 1rem !important;
-    padding-bottom: 0px !important;
-}
-
-#ai-suggestion-new .content2-2 .card{
-    width: 305px !important;
 }
 
 @keyframes scrolldown {
@@ -2323,64 +2316,6 @@ footer p{
         margin-top: 60px;
     }
 
-    
-
-    /* final evaluation section */
-
-    .text-start h1{
-        font-size: 40px;
-    }
-
-    .text-start p{
-        font-size: 14px;
-    }
-
-    .text-second p{
-        font-size: 30px;
-        /* font-size: 42px; */
-    }
-
-    /* tab section (final evaluation) */
-
-    #tab-section .final-evaluation-desc h3{
-        font-size: 20px;
-    }
-
-    #tab-section .final-evaluation-desc p{
-        font-size: 14px;
-    }
-
-    #tab-section .final-eval-talent{
-        width: 400px;
-        height: auto;
-        /* width: 550px;
-        height: auto; */
-    }
-
-    .img-floating img{
-        height: 90px;
-        width: auto;
-    }
-    .floating-one{
-        margin-top: -482px;
-        margin-left: 50px;
-    }
-    
-    .floating-two{
-        margin-top: -650px;
-        margin-left: 150px;
-    }
-    
-    .floating-three{
-        margin-top: -550px;
-        margin-left: 375px;
-    }
-    
-    .floating-four{
-        margin-top: -289px;
-        margin-left: 415px;
-    }
-
     /* gap analysis */
 
     #ai-suggestion-new .mt-180{
@@ -2501,6 +2436,81 @@ footer p{
         font-size: 1px;
         display: none;
     }
+
+    /* final evaluation section */
+
+    .text-start h1{
+        font-size: 40px;
+    }
+
+    .text-start p{
+        font-size: 14px;
+    }
+
+    .text-second p{
+        font-size: 30px;
+        /* font-size: 42px; */
+    }
+
+    /* tab section (final evaluation) */
+
+    #tab-section .final-evaluation-desc h3{
+        font-size: 20px;
+    }
+
+    #tab-section .final-evaluation-desc p{
+        font-size: 14px;
+    }
+
+    #tab-section .final-eval-talent{
+        width: 400px;
+        height: auto;
+        /* width: 550px;
+        height: auto; */
+    }
+
+    .img-floating img{
+        height: 90px;
+        width: auto;
+    }
+    .floating-one{
+        margin-top: -482px;
+        margin-left: 50px;
+    }
+    
+    .floating-two{
+        margin-top: -650px;
+        margin-left: 150px;
+    }
+    
+    .floating-three{
+        margin-top: -550px;
+        margin-left: 375px;
+    }
+    
+    .floating-four{
+        margin-top: -289px;
+        margin-left: 415px;
+    }
+
+    /* marquee section */
+    #section3-1 .content {
+        font-size: 150px;
+    }
+
+    #section3-1 .content2 {
+        font-size: 46px;
+    }
+
+    #section3-1 .line {
+        height: 28vh;
+        margin: 2vw 5vw;
+      }
+      
+      #section3-1 .line2 {
+        height: 8vh;
+        margin: 10px 15vw;
+      }
     
 }
 
