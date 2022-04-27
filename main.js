@@ -385,7 +385,7 @@ ScrollTrigger.create({
   trigger: "#ai-suggestion-new",
   scrub:1,
   snap: 1/5,
-  start: "10% top",
+  start: "21% top",
   end: "+=3000",
   pin:true,
 });
