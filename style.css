@@ -1417,7 +1417,7 @@ h4{
     position: relative;
     z-index: 1;
     padding: 3.30px 4.9vh 4.1vh;
-    min-width: 40vh !important;
+    min-width: 45vh !important;
     border-radius: 0.16vh;
     margin-bottom: 2.47vh;
     margin-top: 6.47vh;
@@ -1429,16 +1429,15 @@ h4{
 }
 
 .single-timeline-area .single-timeline-content .timeline-text h3 {
-    font-size: 3vh;
+    font-size: 3.3vh;
 }
 .single-timeline-area .single-timeline-content .timeline-text h6 {
-    font-size: 2.9vh;
+    font-size: 2.3vh;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
 .single-timeline-area .single-timeline-content .timeline-text p {
     font-size: 2vh;
-
     margin-bottom: 0;
 }
 
@@ -1458,7 +1457,7 @@ h4{
 
 .number{
     position: absolute;
-    right: 0vh;
+    right: 1.5vh;
     font-size: 16.52vh;
     bottom: 10%;
     background: -webkit-linear-gradient(#acc0ae, #ffffff);
