@@ -1007,6 +1007,13 @@ h4{
     height: 150vh;
 }
 
+#ai-suggestion-new .tengah {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .gap-analisis-judul{
     font-size: 48px
 }
