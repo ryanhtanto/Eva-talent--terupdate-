@@ -280,7 +280,7 @@ h4{
     width: 312px;
     height: 480px;
     border-radius: 25px;
-    background-color: var(--warna2);
+    background-color: #2b2b29;
     margin-left: 17rem;
 }
 
@@ -320,7 +320,7 @@ h4{
 #section1-1 .kart5 {
     width: 236px;
     margin-bottom: 542px;
-    margin-left: 634px;
+    margin-left: 615px;
     object-fit: contain;
 }
 
@@ -1897,7 +1897,7 @@ footer p{
         height: 100%;
     }
     .blog .button a {
-        width: 380px;
+        width: 380px !important;
     }
     .formSection::after {
         height: 60px;
