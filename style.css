@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -949,6 +949,23 @@ h4{
     box-shadow: #e2e8f0 0px 10px;
 }
 
+#quadrant .row-atas{
+    margin-top: 11.8vh;
+}
+
+#quadrant .judul{
+    font-size: 7.5vh;
+    margin-bottom: 4.5vh;
+}
+
+#quadrant .paragraf{
+    font-size: 2.4vh;
+}
+
+#quadrant .kategori{
+    font-size: 2.7vh;
+}
+
 #quadrant .tengah {
     height: 100%;
     display: flex;
@@ -957,58 +974,79 @@ h4{
 }
 
 #quadrant .card{
-    border-radius: 15px;
+    border-radius: 1.8vh;
+    margin-bottom: 5.3vh;
 }
 
 #quadrant .mb-44{
-    margin-bottom: 44px;
+    margin-bottom: 6.5vh;
 }
+
+#quadrant .card{
+    width: 29.8vh;
+}
+
 #quadrant .card-header{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 1.8vh;
+    border-top-right-radius: 1.8vh;
     border-bottom: 0px !important;
-    padding-top: 5px;
+    padding-top: 0.8vh;
 }
 #quadrant .card-body{
     background-color: #e2e8f0 !important;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    padding-bottom: 0px !important;
+    border-bottom-left-radius: 1.8vh;
+    border-bottom-right-radius: 1.8vh;
+    padding-bottom: 0vh !important;
 }
 
-#quadrant .card-hijau img{
-    margin: 0px !important;
-    padding-right: 0px !important;
+#quadrant .card-merah, .card-hijau, .card-biru, .card-kuning{
+    height: 19vh;
 }
 
 #quadrant .card-text2{
-    margin-top: -10px !important;
+    margin-top: -1.5vh !important;
+    margin-bottom: 0vh !important;
 }
 
-#quadrant .card-text3{
-    margin-top: -10px !important;
+#quadrant .card-text{
+    font-size: 2.4vh;
+}
+
+#quadrant .pop-up-text{
+    font-size: 2.4vh;
+}
+
+#quadrant .percent-change-2{
+    font-size: 7.5vh;
 }
 
 #quadrant .pop-up{
-    border-radius: 15px !important;
-    line-height: 0.8;
+    border-radius: 1.8vh !important;
+    line-height: 1.8vh;
 }
 
 #quadrant .pop-up-1{
     position: absolute;
-    width: 220px;
-    margin-top: 120px;
-    margin-left: 80px;
+    width: 29vh;
+    height: 33vh;
+    margin-top: 15.5vh;
+    margin-left: 10.5vh;
     display: none;
 }
 
 #quadrant .pop-up-2{
     position: absolute;
-    width: 220px;
-    margin-top: 80px;
+    width: 29vh;
+    height: 33vh;
+    margin-top: 10vh;
     display: none;
-    margin-left: 120px;
+    margin-left: 16vh;
     z-index: -1;
+}
+
+#quadrant .pop-up{
+    width: 29vh;
+    height: 33vh;
 }
 
 #quadrant .mb-36{
@@ -1802,7 +1840,7 @@ footer span.eva-rec-span {
     overflow-x: hidden;
 }
 .blog .slider-blog .board-slider-blog .card {
-    background-color: #e2e8f0;
+    background-color: white;
     height: auto;
     min-width: 100%;
     border-radius: 16px;
@@ -2701,7 +2739,7 @@ footer p{
         flex-direction: row !important;
     }
     .blog .slider-blog .board-slider-blog .card {
-        height: auto !important;
+        height: 100% !important;
         min-width: 275px !important;
         max-width: 275px !important;
         margin-right: 0px !important;
