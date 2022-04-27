@@ -3198,6 +3198,9 @@ footer p{
         margin-top: -30px;
         margin-left: -20px;
     }
+    #ai-suggestion-new .mask7{
+        bottom: 200px;
+    }
     #section3-4 {
         height: 800px !important;
     }
