@@ -860,6 +860,12 @@ h4{
     box-shadow: #edf2f7 0px 10px;
 }
 
+#pelacakan .pelacakan-img{
+    width: 37vh;
+    height: auto;
+    margin-bottom: 10vh;
+}
+
 #pelacakan .container {
     height: 100%;
     display: flex;
@@ -875,7 +881,11 @@ h4{
 }
 
 #pelacakan .pelacakan-judul h1{
-    font-size: 3rem;
+    font-size: 7vh;
+}
+
+#pelacakan .pelacakan-judul p{
+    font-size: 2vh;
 }
 
 #pelacakan .timeline-section{
@@ -891,34 +901,34 @@ h4{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
-    width: 29vw;
-    height: 35vh;
-    margin-top: -20px;
+    width: 65vh;
+    height: 27vh;
+    margin-top: -2vh;
 }
 
 #pelacakan .mask2{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
-    width: 29vw;
-    height: 30vh;
-    margin-top: 3vh;
+    width: 65vh;
+    height: 35vh;
+    margin-top: 1.5vh;
 }
 
 #pelacakan .mask3{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
-    width: 29vw;
-    height: 30vh;
-    margin-top: -45px;
+    width: 65vh;
+    height: 35vh;
+    margin-top: -2vh;
 }
 
 #pelacakan .mask5{
     position: absolute;
     z-index: 3;
     background-color: var(--warna1);
-    width: 30vw;
+    width: 65vh;
     margin-bottom: -40px;
     height: 80vh;
 }
@@ -927,9 +937,10 @@ h4{
     position: absolute;
     z-index: 7;
     background-color: var(--warna1);
-    width: 28vw;
-    /* margin-bottom: -40px; */
-    height: 100vh;
+    width: 44vh;
+    margin-left: 27px;
+    margin-top: 3px;
+    height: 65vh;
 }
 
 #quadrant{
@@ -1336,14 +1347,14 @@ h4{
 .single-timeline-area {
     position: relative;
     z-index: 1;
-    padding-left: 120px;
-    margin-bottom: 60px;
+    padding-left: 19.83vh;
+    margin-bottom: -4.82vh;
 }
 .single-timeline-area .timeline-date {
     position: absolute;
-    width: 100px;
+    width: 16.52vh;
     height: 100%;
-    top: 0px;
+    top: 0vh;
     left: 0;
     z-index: 1;
     display: -webkit-box;
@@ -1356,28 +1367,28 @@ h4{
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    padding-right: 60px;
+    padding-right: 9.91vh;
 }
 
 .single-timeline-area .timeline-date-1::after {
     position: absolute;
-    width: 1px;
+    width: 0.1vh;
     height: 100%;
     content: "";
     background-color: black;
-    top: 110px !important;
-    right: 30px;
+    top: 14vh !important;
+    right: 4.95vh;
     z-index: 1;
 }
 
 .single-timeline-area .timeline-date-2::after {
     position: absolute;
-    width: 1px;
-    height: 200%;
+    width: 0.1vh;
+    height: 120%;
     content: "";
     background-color: black;
-    top: 0px;
-    right: 30px;
+    top: 0vh;
+    right: 4.95vh;
     z-index: 1;
 }
 
@@ -1391,48 +1402,43 @@ h4{
 
 .single-timeline-area .timeline-date::before {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 9vh;
+    height: 9vh;
     border-radius: 50%;
-    border: 20px solid #4e5150;
+    border: 2.7vh solid #4e5150;
     content: "";
-    top: 50%;
-    right: -3px;
+    /* top: 50%; */
+    right: 0.66vh;
     z-index: 5;
-    margin-top: -20px;
+    margin-top: -3.30vh;
 }
-.single-timeline-area .timeline-date p {
-    margin-bottom: 0;
-    color: #020710;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
+
 .single-timeline-area .single-timeline-content {
     position: relative;
     z-index: 1;
-    padding: 20px 30px 25px;
-    min-width: 310px !important;
-    border-radius: 6px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    padding: 3.30px 4.9vh 4.1vh;
+    min-width: 40vh !important;
+    border-radius: 0.16vh;
+    margin-bottom: 2.47vh;
+    margin-top: 6.47vh;
 }
 
 .single-timeline-area .single-timeline-content .timeline-icon i {
     color: #ffffff;
-    line-height: 30px;
+    line-height: 4.95vh;
 }
 
 .single-timeline-area .single-timeline-content .timeline-text h3 {
-    font-size: 28px;
+    font-size: 3vh;
 }
 .single-timeline-area .single-timeline-content .timeline-text h6 {
-    font-size: 18px;
+    font-size: 2.9vh;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
 .single-timeline-area .single-timeline-content .timeline-text p {
-    font-size: 14px;
+    font-size: 2vh;
+
     margin-bottom: 0;
 }
 
@@ -1452,8 +1458,8 @@ h4{
 
 .number{
     position: absolute;
-    right: 20%;
-    font-size: 100px;
+    right: 0vh;
+    font-size: 16.52vh;
     bottom: 10%;
     background: -webkit-linear-gradient(#acc0ae, #ffffff);
     -webkit-background-clip: text;
@@ -1463,8 +1469,8 @@ h4{
 
 .number-2{
     position: absolute;
-    right: 18%;
-    font-size: 100px;
+    right: 0vh;
+    font-size: 16.52vh;
     bottom: 40%;
     background: -webkit-linear-gradient(#acc0ae, #ffffff);
     -webkit-background-clip: text;
@@ -2154,7 +2160,7 @@ footer p{
 
     /* pelacakan section */
 
-    #pelacakan .pelacakan-judul h1{
+    /* #pelacakan .pelacakan-judul h1{
         font-size: 40px;
     }
 
@@ -2246,21 +2252,21 @@ footer p{
         display: flex;
         align-items: center;
         justify-content: center;
-      }
+      } */
 
-    .pelacakan-img{
+    /* .pelacakan-img{
         width: 250px;
         height: auto;
         margin-bottom: 40px;
-    }
+    } */
 
-    #pelacakan .mask2{
+    /* #pelacakan .mask2{
         width: 35vw;
     }
 
     #pelacakan .mask3{
         width: 31vw;
-    }
+    } */
 
     /* section analysis */
 
@@ -3094,18 +3100,14 @@ footer p{
     #section1-1 .kart3, .kart4, .kart5{
         margin-right: -5rem;
     }
-    #pelacakan .timeline-section{
+    /* #pelacakan .timeline-section{
         margin-top: 100px;
     }
-    .pelacakan-img{
-        width: 330px;
-        height: auto;
-        margin-bottom: -50px;
-    }
+    
     #pelacakan .pelacakan-judul{
         margin-top: 80px !important;
-    }
-    .single-timeline-area {
+    } */
+    /* .single-timeline-area {
         position: relative;
         z-index: 1;
         padding-left: 120px;
@@ -3182,7 +3184,7 @@ footer p{
         border-radius: 6px;
         margin-bottom: 0px;
         margin-top: 30px;
-    }
+    } */
     #ai-suggestion-new .bg1{
         width: 330px;
         height: auto;
