@@ -394,35 +394,6 @@ ScrollTrigger.create({
 
 
 /*form-section*/
-const imageFormPoint = document.querySelector(".imageforForm");
-const imageForm = document.querySelector(".image-form");
-const cardFormPoint = document.querySelector(".cardforForm");
-const cardForm = document.querySelector(".card-form");
-
-const animateOnScroll = (elementAnimate, animateIn, animateOut, marginView) => {
-  return new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          elementAnimate.style.transform = `${animateIn}`;
-        } else {
-          elementAnimate.style.transform = `${animateOut}`;
-        }
-      });
-    },
-    {
-      root: document,
-      rootMarginTop: `${marginView}`,
-    }
-  );
-};
-
-const observer3 = animateOnScroll(imageForm, "translateY(0%)", "translateY(100%)", "-200px");
-const observer4 = animateOnScroll(cardForm, "translateX(0%)", "translateX(100%)", "-200px");
-
-observer3.observe(imageFormPoint);
-observer4.observe(cardFormPoint);
-
 /*ScrollTrigger mask animation*/
 gsap.registerPlugin(ScrollTrigger);
 
@@ -441,11 +412,11 @@ if (window.matchMedia("(min-width: 992px)").matches) {
   });
 }
 
-
-if(window.innerWidth > 992){
-
-}
 /*navbar*/
+if (window.matchMedia("(max-width: 992px)").matches) {
+  $('#nav li.dropdown>a').attr('data-bs-toggle','dropdown');
+}
+
 $(document).ready(function () {
   var $win = $(window);
 
