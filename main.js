@@ -75,7 +75,7 @@ gsap.to("#section1-1 .random0 .bgorang , #section1-1 .random0 .mask2", {
   }, 
 });
 
-gsap.to("#section1-1 .random0 .mask1 , #section1-1 .random0 .mask3", {
+gsap.to("#section1-1 .random0 .eva , #section1-1 .random0 .mask1 , #section1-1 .random0 .mask3", {
   yPercent: -300,
   ease: "none",
   scrollTrigger: {
