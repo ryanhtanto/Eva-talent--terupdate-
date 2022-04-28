@@ -44,8 +44,8 @@ h4{
 }
 
 .shadow-neo{
-    box-shadow:  7px 7px 11px #bcbcbc,
-             -7px -7px 11px #ffffff;
+    box-shadow:  1.15vh 1.15vh 1.818vh #bcbcbc,
+             -1.15vh -1.15vh 1.818vh #ffffff;
 }
 
 .orange-text{
@@ -638,46 +638,7 @@ h4{
     display: flex;
 }
 
-.progress{
-    height: 30px !important;
-    margin-left: 25px !important;
-    margin-top: 20px !important;
-    width: 300px !important;
-    border-radius: 15px !important;
-}
 
-.progress-bar{
-    color: black !important;
-    font-weight: bold;
-}
-
-.progress-bar-1{
-    background-color: #ffd365 !important;
-    text-align: left !important;
-    padding-left: 20px !important;
-    border-radius: 15px !important;
-}
-
-.progress-bar-2{
-    background-color: #ffd365 !important;
-    text-align: left !important;
-    padding-left: 20px !important;
-    border-radius: 15px !important;
-}
-
-.progress-bar-3{
-    background-color: #ffd365 !important;
-    text-align: left !important;
-    padding-left: 20px !important;
-    border-radius: 15px !important;
-}
-
-.progress-bar-4{
-    background-color: #ffd365 !important;
-    text-align: left !important;
-    padding-left: 20px !important;
-    border-radius: 15px !important;
-}
 
 #evaluation{
     background-color: #edf2f7;
@@ -1053,81 +1014,124 @@ h4{
     border-radius: 10px !important;
 }
 
+/* ai-suggestion section */
 
 #ai-suggestion-new{
     background-color: #e2e8f0;
     height: 150vh;
 }
 
-#ai-suggestion-new .tengah {
+/* #ai-suggestion-new .tengah {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+/* sebelah kiri */
+#ai-suggestion-new .mt-108{
+    margin-top: 14.4vh;
+}
+#ai-suggestion-new .gap-analisis-judul{
+    font-size: 6vh;
 }
 
-.gap-analisis-judul{
-    font-size: 48px
+#ai-suggestion-new .gap-analisis-desc{
+    font-size: 2.314vh;
 }
 
 #ai-suggestion-new .pemancing{
-    font-size: 1px;
     display: none;
 }
 
 #ai-suggestion-new .mt-180{
-    margin-top: 180px;
+    margin-top: 29.752vh;
 }
 
-#ai-suggestion-new .card-talent h4{
-    font-size: 24px;
+#ai-suggestion-new .content-2{
+    position: absolute !important;
+    margin-top: -62.644vh !important;
 }
 
-#ai-suggestion-new .card-talent h6{
-    font-size: 16px;
+#ai-suggestion-new .content-2 h1{
+    margin-bottom: 3.966vh;
+    font-size: 6vh
 }
 
-#ai-suggestion-new .content2-1 p{
-    font-size: 20px;
+#ai-suggestion-new .content-2 p{
+    margin-bottom: 3.966vh !important;
+    font-size: 1.8vh;
 }
 
-#ai-suggestion-new .bg1{
-    /* width: 320px;
-    height: auto; */
-    position: absolute;
+#ai-suggestion-new .anim-kiri-after img{
+    width: 8.264vh !important;
+    height: 8.264vh !important;
 }
 
-#ai-suggestion-new .content2-1 h2{
-    font-size: 28px;
+.progress{
+    height: 4.958vh !important;
+    margin-left: 4.13vh !important;
+    margin-top: 3.30vh !important;
+    width: 36vh !important;
+    border-radius: 2.479vh !important;
 }
 
-/* #ai-suggestion-new .underline{
-    text-decoration: 5px underline #FFD365;
-}    */
-
-#ai-suggestion-new  .card{
-    border-radius: 10px !important;
+.progress-bar{
+    color: black !important;
+    font-weight: bold;
 }
 
-#ai-suggestion-new .card-body{
-    padding-bottom: 0px !important;
-    background-color: #e2e8f0;
-    border-radius: 10px !important;
+.progress-bar-1{
+    background-color: #ffd365 !important;
+    text-align: left !important;
+    padding-left: 3.30vh !important;
+    border-radius: 2.479vh !important;
 }
 
-#ai-suggestion-new .img-ai{
-    width: 68%;
-    position: absolute;
-    margin-left: -340px;
-    margin-top: -40px;
+.progress-bar-2{
+    background-color: #ffd365 !important;
+    text-align: left !important;
+    padding-left: 3.30vh !important;
+    border-radius: 2.479vh !important;
 }
 
-#ai-suggestion-new .img-ai-6{
-    width: 70%;
-    position: absolute;
-    margin-left: -340px;
-    margin-top: -20px;
+.progress-bar-3{
+    background-color: #ffd365 !important;
+    text-align: left !important;
+    padding-left: 3.30vh !important;
+    border-radius: 2.479vh !important;
 }
+
+.progress-bar-4{
+    background-color: #ffd365 !important;
+    text-align: left !important;
+    padding-left: 3.30vh !important;
+    border-radius: 2.479vh !important;
+}
+
+/* tengah sec 6 7 */
+
+#ai-suggestion-new .card-tengah .card{
+    background-color: transparent;
+    border-radius: 1.652vh !important;
+    width: 46.28vh;
+}
+
+    /* david */
+    #ai-suggestion-new .img-ai{
+        width: 35vh;
+        position: absolute;
+        margin-left: -1vh;
+        margin-bottom: 2vh;
+    }
+
+    #ai-suggestion-new .img-ai-6{
+        width: 35vh;
+        position: absolute;
+        margin-left: -5vh;
+        margin-bottom: 2vh;
+    }
+    /* end david */
 
 #ai-suggestion-new .img-ai-3{
     width: 70%;
@@ -1157,23 +1161,130 @@ h4{
     margin-top: -50px;
 }
 
-.content2-2 .card-body img{
+#ai-suggestion-new .card-talent h4{
+    font-size: 3.966vh !important;
+}
+
+#ai-suggestion-new .card-talent h6{
+    font-size: 2.6446vh;
+}
+
+#ai-suggestion-new .bg1{
+    /* position: absolute; */
+    width: 45vh;
+    height: 55vh;
+}
+
+#ai-suggestion-new .bg2{
+    position: absolute;
+    width: 45vh;
+    height: 53vh;
+}
+
+#ai-suggestion-new .mask7{
+    position: absolute;
+    z-index: 3;
+    background-color: #e2e8f0;
+    width: 53.88vh;
+    height: 70.248vh;
+    margin-bottom: 2vh;
+}
+
+#ai-suggestion-new .talent-name{
+    font-size: 3vh;
+    font-weight: 700;
+    color: #2B2B29;
+    margin-left: 4.5vh;
+}
+
+#ai-suggestion-new .talent-job-desc{
+    font-size: 2vh;
+    color: #2B2B29;
+    margin-left: 4.5vh;
+}
+
+/* sebelah kanan */
+
+#ai-suggestion-new .content2-1 .card, .content2-2 .card{
+    background-color: transparent;
+    border-radius: 1.652vh !important;
+    width: 35.28vh;
+}
+
+#ai-suggestion-new .content2-1 .card-body{
+    padding-bottom: 0vh !important;
+    background-color: #e2e8f0;
+    border-radius: 1.652vh !important;
+}
+
+#ai-suggestion-new .content2-1 p{
+    font-size: 2vh;
+    margin-left: 1.0362vh;
+}
+
+#ai-suggestion-new .content2-1 h2{
+    margin-bottom: 3.730vh;
+    font-size: 3.62vh;
+}
+
+#ai-suggestion-new .content2-2 .card-body img{
     width: 20%;
     height: 20%;
 }
 
-.card-talent h4{
-    font-size: 42px;
+#ai-suggestion-new .content2-2{
+    position: absolute !important;
+    margin-top: -50vh;
 }
 
-.card-talent h6{
-    font-size: 28px;
+#ai-suggestion-new .content2-2 .card-body{
+    padding: 1rem !important;
+    padding-bottom: 0px !important;
 }
 
-.card-talent .card{
-    width: 27rem; 
-    background-color: transparent;
-} 
+#ai-suggestion-new .content2-2 p{
+    font-size: 2vh;
+}
+
+/* progress bar */
+
+
+
+#ai-suggestion-new .trackbar {
+    width: 100%;
+    height: 10px;
+    border: none;
+    background-color: #C4C4C4;
+    border-radius: 8px;
+    display: flex;
+    margin-top: -55px;
+}
+
+#ai-suggestion-new .scrollbar {
+    width: 0;
+    height: 10px;
+    border: none;
+    background-color: var(--warna2);
+    border-radius: 8px;
+}
+
+#ai-suggestion-new .circlebar {
+    background-image: url("images/section6/icon-bar.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -35px;
+    margin-left: -20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: none;
+    opacity: 0;
+}
+
+
+
+
 
 #section3-4 {
     position: relative;
@@ -1681,76 +1792,7 @@ footer span.eva-rec-span {
 
 /* masking pelacakan */
 
-#ai-suggestion-new .mask7{
-    position: absolute;
-    z-index: 3;
-    background-color: #e2e8f0;
-    width: 520px;
-    bottom: 350px;
-    height: 620px;
-}
 
-#ai-suggestion-new .trackbar {
-    width: 100%;
-    height: 10px;
-    border: none;
-    background-color: #C4C4C4;
-    border-radius: 8px;
-    display: flex;
-    margin-top: -55px;
-}
-
-#ai-suggestion-new .scrollbar {
-    width: 0;
-    height: 10px;
-    border: none;
-    background-color: var(--warna2);
-    border-radius: 8px;
-}
-
-#ai-suggestion-new .circlebar {
-    background-image: url("images/section6/icon-bar.webp");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: -35px;
-    margin-left: -20px;
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    border: none;
-    opacity: 0;
-}
-
-#ai-suggestion-new .content-2{
-    position: absolute !important;
-    margin-top: -500px !important;
-}
-
-#ai-suggestion-new .icon-progres{
-    width: 70px !important;
-    height: 70px !important;
-    margin-top: 0px !important;
-}
-
-.content-2 p{
-    margin-bottom: 70px;
-    font-size: 14px;
-}
-
-#ai-suggestion-new .content2-2{
-    position: absolute !important;
-    margin-top: -450px;
-}
-
-#ai-suggestion-new .content2-2 .card-body{
-    padding: 1rem !important;
-    padding-bottom: 0px !important;
-}
-
-#ai-suggestion-new .content2-2 .card{
-    width: 305px !important;
-}
 
 /*section blog*/
 .blog {
@@ -2151,115 +2193,11 @@ footer p{
         font-size: 16px;
     }
 
-    /* pelacakan section */
+    /* section pelacakan */
 
-    /* #pelacakan .pelacakan-judul h1{
-        font-size: 40px;
+    #pelacakan .mask6{
+        width: 50.5vh;
     }
-
-    #pelacakan .container{
-        margin-top: 65px;
-    }
-
-    #pelacakan .timeline-section{
-        margin-top: 100px;
-    }
-
-    #pelacakan .pelacakan-judul p{
-        font-size: 12px;
-    }
-
-    .single-timeline-area .timeline-date::before {
-        width: 40px;
-        height: 40px;
-        border: 12px solid #4e5150;
-    }
-    .single-timeline-area .timeline-date {
-        position: absolute;
-        width: 100px;
-        height: 100%;
-        top: -20px;
-        left: 0;
-        z-index: 1;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -ms-grid-row-align: center;
-        align-items: center;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-        justify-content: flex-end;
-        padding-right: 60px;
-    }
-
-    .single-timeline-area .timeline-date-1::after {
-        width: 1px;
-        height: 110%;
-        content: "";
-        background-color: black;
-        top: 70px !important;
-        right: 17px;
-        z-index: 1;
-    }
-    
-    .single-timeline-area .timeline-date-2::after {
-        width: 1px;
-        height: 200%;
-        content: "";
-        background-color: black;
-        top: -15px;
-        right: 17px;
-        z-index: 1;
-    }
-
-    .single-timeline-area .single-timeline-content {
-        position: relative;
-        z-index: 1;
-        padding: 20px 0px 25px;
-        min-width: 250px;
-        border-radius: 6px;
-        margin-bottom: 15px;
-        margin-top: -20px;
-    }
-
-    .single-timeline-area .single-timeline-content .timeline-text h3 {
-        font-size: 25px;
-    }
-
-    .single-timeline-area .single-timeline-content .timeline-text h6 {
-        font-size: 14px;
-    }
-
-    .single-timeline-area .single-timeline-content .timeline-text p {
-        font-size: 12px;
-        margin-bottom: 0;
-    }
-
-    .single-timeline-area .single-timeline-content .timeline-text h1 {
-        font-size: 80px;
-    }
-
-    .img-center{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      } */
-
-    /* .pelacakan-img{
-        width: 250px;
-        height: auto;
-        margin-bottom: 40px;
-    } */
-
-    /* #pelacakan .mask2{
-        width: 35vw;
-    }
-
-    #pelacakan .mask3{
-        width: 31vw;
-    } */
 
     /* section analysis */
 
@@ -2324,8 +2262,6 @@ footer p{
 
     /* leaderboard section */
 
-  
-
     #leaderboard .leaderboard-desc{
         font-size: 14px;
     }
@@ -2334,234 +2270,10 @@ footer p{
         margin-top: 60px;
     }
 
-    /* gap analysis */
-
-    #ai-suggestion-new .mt-180{
-        margin-top: 120px;
-    }
-
-    #ai-suggestion-new .card-talent .card-body{
-        background-color: transparent;
-    }
-
-    #ai-suggestion-new .card-talent h4{
-        font-size: 22px;
-    }
-    
-    #ai-suggestion-new .card-talent h6{
-        font-size: 14px;
-    }
-
-    #ai-suggestion-new .content2-1 p{
-        font-size: 15px;
-    }
-
-    #ai-suggestion-new .bg1{
-        width: 250px;
-        height: auto;
-        position: absolute;
-    }
-
-    #ai-suggestion-new .bg2{
-        width: 300px;
-        height: auto;
-    }
-
-    #ai-suggestion-new .talent{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #ai-suggestion-new .mt-50{
-        margin-top: 20px;
-    }
-
-    #ai-suggestion-new .content2-1 h2{
-        font-size: 20px;
-    }
-
-    #ai-suggestion-new .content-2{
-        margin-top: -400px !important;
-    }
+    /* ai-suggestion */
 
     #ai-suggestion-new .content2-2{
-        margin-top: -370px !important;
-    }
-
-    #ai-suggestion-new .mask7{
-        width: 420px;
-        height: 600px;
-        bottom: 260px;
-        margin-left: 20px;
-    }
-
-    #ai-suggestion-new .icon-progres{
-        width: 60px !important;
-        height: 60px !important;
-        margin-top: 0px !important;
-    }
-
-    .progress{
-        height: 30px !important;
-        margin-left: 25px !important;
-        margin-top: 20px !important;
-        width: 300px !important;
-        border-radius: 15px !important;
-    }
-    
-    .progress-bar{
-        color: black !important;
-        font-weight: bold;
-    }
-    
-    .progress-bar-1{
-        background-color: #ffd365 !important;
-        text-align: left !important;
-        padding-left: 20px !important;
-        border-radius: 15px !important;
-    }
-    
-    .progress-bar-2{
-        background-color: #ffd365 !important;
-        text-align: left !important;
-        padding-left: 20px !important;
-        border-radius: 15px !important;
-    }
-    
-    .progress-bar-3{
-        background-color: #ffd365 !important;
-        text-align: left !important;
-        padding-left: 20px !important;
-        border-radius: 15px !important;
-    }
-    
-    .progress-bar-4{
-        background-color: #ffd365 !important;
-        text-align: left !important;
-        padding-left: 20px !important;
-        border-radius: 15px !important;
-    }
-
-    /* #ai-suggestion-new .content-2 h1{
-        font-size: 28px;
-    } */
-
-    #ai-suggestion-new .card-talent-inner{
-        margin-top: 10px;
-    }
-
-    /* .content2-1{
-        border: solid;
-    } */
-
-    .card-talent .card{
-        width: 22rem; 
-    }
-
-    .card-talent h4{
-        font-size: 30px;
-        margin-top: -20px;
-    }
-
-    .card-talent h6{
-        font-size: 18px;
-        margin: 0px;
-    }
-
-
-    #ai-suggestion-new .img-ai{
-        position: absolute;
-        /* width: 80%; */
-        width: 73%;
-        margin-left: -15px;
-        margin-bottom: -30px;
-    }
-
-    #ai-suggestion-new .david-1{
-        width: 63%;
-        margin-left: -15px;
-        margin-bottom: -15px;
-    }
-
-    #ai-suggestion-new .img-ai-2{
-        /* width: 60%; */
-        width: 64%;
-        margin-left: 15px;
-        margin-bottom: -13px;
-    }
-
-    #ai-suggestion-new .img-ai-5{
-        width: 63%;
-        margin-bottom: -30px;
-        margin-left: 20px;
-    }
-
-    #ai-suggestion-new .img-ai-6{
-        width: 70%;
-        margin-left: -40px;
-        margin-top: -5px;
-    }
-    
-    #ai-suggestion-new .fransiska-2{
-        width: 64%;
-        margin-bottom: -30px;
-    }
-    
-    #ai-suggestion-new .img-ai-3{
-        /* width: 60%; */
-        width: 63%;
-        margin-left: 15px;
-        margin-bottom: -30px;
-    }
-
-    #ai-suggestion-new .img-ai-4{
-        /* width: 60%; */
-        width: 60%;
-        margin-left: 8px;
-        margin-bottom: -20px;
-    }
-
-
-    .gap-analisis-judul{
-        /* font-size: 48px */
-        font-size: 35px;
-    }
-    
-    .gap-analisis-desc{
-        font-size: 12px;
-    }
-
-    #ai-suggestion-new .mask8{
-        width: 400px;
-        height: 350px;
-    }
-
-    .content-2 h1{
-        font-size: 37px;
-    }
-
-    .content-2 p{
-        font-size: 14px; 
-        margin-bottom: 0px;
-    }
-
-    .content2-2 .card-body img{
-        width: 15%;
-        height: 15%;
-    }
-
-    .content2-2 .card-body p{
-        font-size: 16px;
-    }
-
-    #ai-suggestion-new .content2-2 .card{
-        width: 250px !important;
-    }
-
-    #ai-suggestion-new .pemancing{
-        font-size: 1px;
-        display: none;
+        margin-top: -55vh;
     }
 
     /* final evaluation section */
@@ -3093,118 +2805,14 @@ footer p{
     #section1-1 .kart3, .kart4, .kart5{
         margin-right: -5rem;
     }
-    /* #pelacakan .timeline-section{
-        margin-top: 100px;
-    }
-    
-    #pelacakan .pelacakan-judul{
-        margin-top: 80px !important;
-    } */
-    /* .single-timeline-area {
-        position: relative;
-        z-index: 1;
-        padding-left: 120px;
-        margin-bottom: 20px;
-    }
-    .single-timeline-area .timeline-date {
-        position: absolute;
-        width: 100px;
-        height: 100%;
-        top: 0px;
-        left: 0;
-        z-index: 1;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -ms-grid-row-align: center;
-        align-items: center;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-        justify-content: flex-end;
-        padding-right: 60px;
-    }
-    
-    .single-timeline-area .timeline-date-1::after {
-        position: absolute;
-        width: 1px;
-        height: 100%;
-        content: "";
-        background-color: black;
-        top: 110px !important;
-        right: 30px;
-        z-index: 1;
-    }
-    
-    .single-timeline-area .timeline-date-2::after {
-        position: absolute;
-        width: 1px;
-        height: 180%;
-        content: "";
-        background-color: black;
-        top: 0px;
-        right: 30px;
-        z-index: 1;
-    }
-    
-    .single-timeline-area .timeline-date-2::before{
-        background-color: #edf2f7;
-    }
-    
-    .single-timeline-area .timeline-date-3::before{
-        background-color: #edf2f7;
-    }
-    
-    .single-timeline-area .timeline-date::before {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: 15px solid #4e5150;
-        content: "";
-        top: 50%;
-        right: 6px;
-        z-index: 5;
-        margin-top: 0px;
-    }
 
-    .single-timeline-area .single-timeline-content {
-        position: relative;
-        z-index: 1;
-        padding: 20px 30px 25px;
-        min-width: 300px;
-        border-radius: 6px;
-        margin-bottom: 0px;
-        margin-top: 30px;
-    } */
-    #ai-suggestion-new .bg1{
-        width: 330px;
-        height: auto;
-        margin-top: -30px;
-    }
-    #ai-suggestion-new .card-nama{
-        width: 280px;
-        margin-top: -30px;
-    }
-    #ai-suggestion-new .bg2{
-        width: 380px;
-        height: 480px;
-        margin-top: -30px;
-        margin-left: -20px;
-    }
-    #ai-suggestion-new .mask7{
-        bottom: 200px;
-    }
     #section3-4 {
         height: 800px !important;
     }
     #section3-4 .slider img {
         width: 1400px !important;
     }
-      /* #section3-4 .judul {
-        font-size: 56px;
-      } */
+
     @keyframes marquee3 {
         0% {
           transform: translateX(0);
