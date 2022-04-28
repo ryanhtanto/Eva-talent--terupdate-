@@ -1116,7 +1116,11 @@ h4{
     border-radius: 1.652vh !important;
     width: 46.28vh;
 }
-
+#ai-suggestion-new .card-talent .card{
+    background-color: transparent;
+    border-radius: 1.652vh !important;
+    width: 46.28vh;
+}
     /* david */
     #ai-suggestion-new .img-ai{
         width: 35vh;
@@ -1133,33 +1137,49 @@ h4{
     }
     /* end david */
 
-#ai-suggestion-new .img-ai-3{
-    width: 70%;
-    position: absolute;
-    margin-left: -350px;
-    margin-top: -40px;
-}
 
-#ai-suggestion-new .img-ai-4{
-    width: 60%;
-    position: absolute;
-    margin-left: -320px;
-    margin-top: -35px;
-}
+    /* TIMOTHY */
+    #ai-suggestion-new .img-ai-3{
+        width: 35vh;
+        position: absolute;
+        margin-left: -40vh;
+        margin-bottom: 2vh
+    }
+    
+    #ai-suggestion-new .img-ai-4{
+        width: 29vh;
+        position: absolute;
+        margin-left: -36vh;
+        margin-top: 1vh;
+    }
+    /* END TIMOTHY */
+
+
+/* fransisca */
 
 #ai-suggestion-new .img-ai-5{
-    width: 70%;
+    width: 35vh;
     position: absolute;
-    margin-left: -330px;
-    margin-top: -45px;
+    margin-left: -39vh;
+    margin-top: -1vh;
 }
 
 #ai-suggestion-new .img-ai-2{
-    width: 68%;
+    width: 33vh;
     position: absolute;
-    margin-left: -330px;
-    margin-top: -50px;
+    margin-left: -39vh;
+    margin-top: -1vh;
 }
+
+#ai-suggestion-new .bg2{
+    position: absolute;
+    width: 49vh;
+    height: 54vh;
+    margin-left: -47vh;
+    margin-top: 1vh;
+}
+/* end fransisca */
+
 
 #ai-suggestion-new .card-talent h4{
     font-size: 3.966vh !important;
@@ -1171,14 +1191,8 @@ h4{
 
 #ai-suggestion-new .bg1{
     /* position: absolute; */
-    width: 45vh;
+    width: 44vh;
     height: 55vh;
-}
-
-#ai-suggestion-new .bg2{
-    position: absolute;
-    width: 45vh;
-    height: 53vh;
 }
 
 #ai-suggestion-new .mask7{
