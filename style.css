@@ -26,6 +26,22 @@ section{
     --warna-font-2: #676560;
 }
 
+/*scrollbar*/
+html::-webkit-scrollbar {
+    width:1vw;
+}
+  
+html::-webkit-scrollbar-thumb {
+    background-color: #454045;
+    border-radius: 20px;
+    box-shadow: var(--warna5) 0px 2px;
+}
+  
+html::-webkit-scrollbar-track {
+    border: 1px solid #D6D6CC;
+    background-color: #EDF2F7;
+}
+
 p{
     font-size: 18px;
     color: var(--warna-font-2);
