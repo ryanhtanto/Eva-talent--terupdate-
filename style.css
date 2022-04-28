@@ -142,7 +142,7 @@ h4{
 #nav .dropdown-item{
     display: flex;
     align-items: center;
-    color: #2D3748;
+    color: #2D3748 !important;
     border-radius: 15px;
 }
 #nav .dropdown-item:active{
@@ -160,10 +160,16 @@ h4{
 }
 #nav .juduldropdown{
     font-weight: 700;
-    font-size: 18px;  
+    font-size: 18px !important; 
+    color: #2D3748 !important; 
 }
 #nav .dropdown-item p{
     margin: 0;
+    color: #2D3748 !important; 
+ }
+
+ #nav .dropdown-desc{
+    font-size: 16px !important;
  }
 /* ANIMATION */
 /* Icon 1 */
