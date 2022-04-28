@@ -75,38 +75,38 @@ gsap.to("#section1-1 .random0 .bgorang , #section1-1 .random0 .mask2", {
   }, 
 });
 
-// gsap.to("#section1-1 .random0 .mask1 , #section1-1 .random0 .mask3", {
-//   yPercent: -275,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: "#section1-1 .random0",
-//     pin:"#section1-1 .random0 .row",
-//     start: "-10%",
-//     scrub: true
-//   }, 
-// });
+gsap.to("#section1-1 .random0 .mask1 , #section1-1 .random0 .mask3", {
+  yPercent: -300,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random0",
+    pin:"#section1-1 .random0 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
 
-// gsap.to("#section1-1 .random0 .parallax", {
-//   yPercent: -600,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: "#section1-1 .random0",
-//     pin:"#section1-1 .random0 .row",
-//     start: "-10%",
-//     scrub: true
-//   }, 
-// });
+gsap.to("#section1-1 .random0 .parallax", {
+  yPercent: -600,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random0",
+    pin:"#section1-1 .random0 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
 
-// gsap.to("#section1-1 .random0 .solusibtn", {
-//   yPercent: -800,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: "#section1-1 .random0",
-//     pin:"#section1-1 .random0 .row",
-//     start: "-10%",
-//     scrub:0.01,
-//   }, 
-// });
+gsap.to("#section1-1 .random0 .solusibtn", {
+  yPercent: -1000,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random0",
+    pin:"#section1-1 .random0 .row",
+    start: "-10%",
+    scrub:0.01,
+  }, 
+});
 
 // random 1
 gsap.to("#section1-1 .random1 .panahlingkaran", {
@@ -141,38 +141,38 @@ gsap.to("#section1-1 .random1 .bgorang , #section1-1 .random1 .mask2", {
   }, 
 });
 
-// gsap.to("#section1-1 .random1 .eva , #section1-1 .random1 .mask1 , #section1-1 .random1 .mask3", {
-//   yPercent: -275,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: "#section1-1 .random1",
-//     pin:"#section1-1 .random1 .row",
-//     start: "-10%",
-//     scrub: true
-//   }, 
-// });
+gsap.to("#section1-1 .random1 .eva , #section1-1 .random1 .mask1 , #section1-1 .random1 .mask3", {
+  yPercent: -300,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random1",
+    pin:"#section1-1 .random1 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
 
-// gsap.to("#section1-1 .random1 .parallax", {
-//   yPercent: -600,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: "#section1-1 .random1",
-//     pin:"#section1-1 .random1 .row",
-//     start: "-10%",
-//     scrub: true
-//   }, 
-// });
+gsap.to("#section1-1 .random1 .parallax", {
+  yPercent: -600,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random1",
+    pin:"#section1-1 .random1 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
 
-// gsap.to("#section1-1 .random1 .solusibtn", {
-//   yPercent: -800,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: "#section1-1 .random1",
-//     pin:"#section1-1 .random1 .row",
-//     start: "-10%",
-//     scrub:0.01,
-//   }, 
-// });
+gsap.to("#section1-1 .random1 .solusibtn", {
+  yPercent: -1000,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random1",
+    pin:"#section1-1 .random1 .row",
+    start: "-10%",
+    scrub:0.01,
+  }, 
+});
 
 // random 2
 gsap.to("#section1-1 .random2 .panahlingkaran", {
@@ -207,38 +207,38 @@ gsap.to("#section1-1 .random2 .bgorang , #section1-1 .random2 .mask2", {
   }, 
 });
 
-// gsap.to("#section1-1 .random2 .eva , #section1-1 .random2 .mask1 , #section1-1 .random2 .mask3", {
-//   yPercent: -275,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: "#section1-1 .random2",
-//     pin:"#section1-1 .random2 .row",
-//     start: "-10%",
-//     scrub: true
-//   }, 
-// });
+gsap.to("#section1-1 .random2 .eva , #section1-1 .random2 .mask1 , #section1-1 .random2 .mask3", {
+  yPercent: -300,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random2",
+    pin:"#section1-1 .random2 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
 
-// gsap.to("#section1-1 .random2 .parallax", {
-//   yPercent: -600,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: "#section1-1 .random2",
-//     pin:"#section1-1 .random2 .row",
-//     start: "-10%",
-//     scrub: true
-//   }, 
-// });
+gsap.to("#section1-1 .random2 .parallax", {
+  yPercent: -600,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random2",
+    pin:"#section1-1 .random2 .row",
+    start: "-10%",
+    scrub: true
+  }, 
+});
 
-// gsap.to("#section1-1 .random2 .solusibtn", {
-//   yPercent: -800,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: "#section1-1 .random2",
-//     pin:"#section1-1 .random2 .row",
-//     start: "-10%",
-//     scrub:0.01,
-//   }, 
-// });
+gsap.to("#section1-1 .random2 .solusibtn", {
+  yPercent: -1000,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#section1-1 .random2",
+    pin:"#section1-1 .random2 .row",
+    start: "-10%",
+    scrub:0.01,
+  }, 
+});
 
 /*section pelacakan*/
 const pelacakan = gsap.timeline();
@@ -359,6 +359,7 @@ horizontal.to(".anim-kiri, .anim-kiri-1", 1, { opacity:0, x: "-100vh", stagger:0
 .to("#myBar", 1, {width: "50%", duration: 1, delay:4}, 2);
 
 horizontal.to("#ai-suggestion-new .people", 1, { opacity: 0, scale: 1, transformOrigin: "center bottom", duration: 1, delay:1 }, 3)
+.to("#ai-suggestion-new .card-nama", 1, {opacity: 0, duration: 1, delay:1 }, 3)
 .to("#ai-suggestion-new .people2", 1, { scale: 0.9, transformOrigin: "center bottom", duration: 1, delay:5 }, 3)
 .to("#ai-suggestion-new .people2", 1, { scale: 1, transformOrigin: "center bottom", duration: 1.5, delay:5 }, 3)
 .to("#ai-suggestion-new .people2", 1, { opacity: 1, transformOrigin: "center bottom", duration: 1, delay:5 }, 3)
@@ -368,6 +369,7 @@ horizontal.to("#ai-suggestion-new .bg1", 1, { opacity: 0, scale: 1, transformOri
 .to("#ai-suggestion-new .bg2", 1, { scale: 0.9, transformOrigin: "center bottom", duration: 1, delay:5 }, 3)
 .to("#ai-suggestion-new .bg2", 1, { scale: 1, transformOrigin: "center bottom", duration: 1.5, delay:5 }, 3)
 .to("#ai-suggestion-new .bg2", 1, { opacity: 1, transformOrigin: "center bottom", duration: 1, delay:5 }, 3)
+.to("#ai-suggestion-new .card-nama", 1, {opacity: 1, duration: 1, delay:5 }, 3)
 
 horizontal.from(".anim-kiri-after", 1, { opacity:0, x: "-130vh", stagger:0.1, duration: 1, delay: 4}, 4)
 // .to(".anim-kiri-after", 1, { opacity:1, x: "0vh", stagger:0.1, duration: 1, delay: 4}, 4)

@@ -328,29 +328,29 @@ h4{
 }
 
 #section1-1 .kart1 {
-    width: 244px;
-    margin-bottom: 202px;
-    margin-right: 120px;
+    width: 200px;
+    margin-bottom: 210px;
+    margin-right: 100px;
     object-fit: contain;
 }
 
 #section1-1 .kart2 {
-    width: 223px;
-    margin-top: 278px;
-    margin-right: 105px;
+    width: 200px;
+    margin-top: 320px;
+    margin-right: 70px;
     object-fit: contain;
 }
 
 #section1-1 .kart3 {
-    width: 207px;
-    margin-bottom: 210px;
+    width: 200px;
+    margin-bottom: 170px;
     margin-left: 654px;
     object-fit: contain;
 }
 
 #section1-1 .kart4 {
-    width: 207px;
-    margin-top: 302px;
+    width: 200px;
+    margin-top: 280px;
     margin-left: 664px;
     object-fit: contain;
 }
@@ -861,16 +861,9 @@ h4{
 }
 
 #pelacakan .pelacakan-img{
-    width: 37vh;
+    width: 40.5vh;
     height: auto;
-    margin-bottom: 10vh;
-}
-
-#pelacakan .container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 4.5vh;
 }
 
 #pelacakan .container {
@@ -881,11 +874,12 @@ h4{
 }
 
 #pelacakan .pelacakan-judul h1{
-    font-size: 7vh;
+    font-size: 5.9vh;
+    margin-top: 8vh !important;
 }
 
 #pelacakan .pelacakan-judul p{
-    font-size: 2vh;
+    font-size: 2.3vh;
 }
 
 #pelacakan .timeline-section{
@@ -901,27 +895,30 @@ h4{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
-    width: 65vh;
+    width: 48vh;
     height: 27vh;
     margin-top: -2vh;
+    margin-left: -1vh;
 }
 
 #pelacakan .mask2{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
-    width: 65vh;
+    width: 48vh;
     height: 35vh;
     margin-top: 1.5vh;
+    margin-left: -1vh;
 }
 
 #pelacakan .mask3{
     position: absolute;
     z-index: 6;
     background-color: var(--warna1);
-    width: 65vh;
+    width: 48vh;
     height: 35vh;
     margin-top: -2vh;
+    margin-left: -1vh;
 }
 
 #pelacakan .mask5{
@@ -937,33 +934,16 @@ h4{
     position: absolute;
     z-index: 7;
     background-color: var(--warna1);
-    width: 44vh;
-    margin-left: 27px;
-    margin-top: 3px;
-    height: 65vh;
+    width: 46.5vh;
+    margin-left: 1.5vh;
+    margin-top: 0.5vh;
+    height: 75vh;
 }
 
 #quadrant{
     background-color: #e2e8f0;   
     height: 130vh;
     box-shadow: #e2e8f0 0px 10px;
-}
-
-#quadrant .row-atas{
-    margin-top: 11.8vh;
-}
-
-#quadrant .judul{
-    font-size: 7.5vh;
-    margin-bottom: 4.5vh;
-}
-
-#quadrant .paragraf{
-    font-size: 2.4vh;
-}
-
-#quadrant .kategori{
-    font-size: 2.7vh;
 }
 
 #quadrant .tengah {
@@ -974,79 +954,58 @@ h4{
 }
 
 #quadrant .card{
-    border-radius: 1.8vh;
-    margin-bottom: 5.3vh;
+    border-radius: 15px;
 }
 
 #quadrant .mb-44{
-    margin-bottom: 6.5vh;
+    margin-bottom: 44px;
 }
-
-#quadrant .card{
-    width: 29.8vh;
-}
-
 #quadrant .card-header{
-    border-top-left-radius: 1.8vh;
-    border-top-right-radius: 1.8vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     border-bottom: 0px !important;
-    padding-top: 0.8vh;
+    padding-top: 5px;
 }
 #quadrant .card-body{
     background-color: #e2e8f0 !important;
-    border-bottom-left-radius: 1.8vh;
-    border-bottom-right-radius: 1.8vh;
-    padding-bottom: 0vh !important;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 0px !important;
 }
 
-#quadrant .card-merah, .card-hijau, .card-biru, .card-kuning{
-    height: 19vh;
+#quadrant .card-hijau img{
+    margin: 0px !important;
+    padding-right: 0px !important;
 }
 
 #quadrant .card-text2{
-    margin-top: -1.5vh !important;
-    margin-bottom: 0vh !important;
+    margin-top: -10px !important;
 }
 
-#quadrant .card-text{
-    font-size: 2.4vh;
-}
-
-#quadrant .pop-up-text{
-    font-size: 2.4vh;
-}
-
-#quadrant .percent-change-2{
-    font-size: 7.5vh;
+#quadrant .card-text3{
+    margin-top: -10px !important;
 }
 
 #quadrant .pop-up{
-    border-radius: 1.8vh !important;
-    line-height: 1.8vh;
+    border-radius: 15px !important;
+    line-height: 0.8;
 }
 
 #quadrant .pop-up-1{
     position: absolute;
-    width: 29vh;
-    height: 33vh;
-    margin-top: 15.5vh;
-    margin-left: 10.5vh;
+    width: 220px;
+    margin-top: 120px;
+    margin-left: 80px;
     display: none;
 }
 
 #quadrant .pop-up-2{
     position: absolute;
-    width: 29vh;
-    height: 33vh;
-    margin-top: 10vh;
+    width: 220px;
+    margin-top: 80px;
     display: none;
-    margin-left: 16vh;
+    margin-left: 120px;
     z-index: -1;
-}
-
-#quadrant .pop-up{
-    width: 29vh;
-    height: 33vh;
 }
 
 #quadrant .mb-36{
@@ -1385,7 +1344,7 @@ h4{
 .single-timeline-area {
     position: relative;
     z-index: 1;
-    padding-left: 19.83vh;
+    padding-left: 10vh;
     margin-bottom: -4.82vh;
 }
 .single-timeline-area .timeline-date {
@@ -1393,7 +1352,7 @@ h4{
     width: 16.52vh;
     height: 100%;
     top: 0vh;
-    left: 0;
+    left: -8vh;
     z-index: 1;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1410,8 +1369,8 @@ h4{
 
 .single-timeline-area .timeline-date-1::after {
     position: absolute;
-    width: 0.1vh;
-    height: 100%;
+    width: 0.2vh;
+    height: 40vh;
     content: "";
     background-color: black;
     top: 14vh !important;
@@ -1421,8 +1380,8 @@ h4{
 
 .single-timeline-area .timeline-date-2::after {
     position: absolute;
-    width: 0.1vh;
-    height: 120%;
+    width: 0.2vh;
+    height: 40vh;
     content: "";
     background-color: black;
     top: 0vh;
@@ -1440,24 +1399,24 @@ h4{
 
 .single-timeline-area .timeline-date::before {
     position: absolute;
-    width: 9vh;
-    height: 9vh;
+    width: 7vh;
+    height: 7vh;
     border-radius: 50%;
-    border: 2.7vh solid #4e5150;
+    border: 2vh solid #4e5150;
     content: "";
     /* top: 50%; */
-    right: 0.66vh;
+    right: 1.6vh;
     z-index: 5;
-    margin-top: -3.30vh;
+    margin-top: 0vh;
 }
 
 .single-timeline-area .single-timeline-content {
     position: relative;
     z-index: 1;
-    padding: 3.30px 4.9vh 4.1vh;
-    min-width: 45vh !important;
+    padding: 3.30px 2.5vh 4.1vh;
+    min-width: 38.5vh !important;
     border-radius: 0.16vh;
-    margin-bottom: 2.47vh;
+    margin-bottom: 4vh;
     margin-top: 6.47vh;
 }
 
@@ -1467,7 +1426,7 @@ h4{
 }
 
 .single-timeline-area .single-timeline-content .timeline-text h3 {
-    font-size: 3.3vh;
+    font-size: 3.2vh;
 }
 .single-timeline-area .single-timeline-content .timeline-text h6 {
     font-size: 2.3vh;
@@ -1475,17 +1434,8 @@ h4{
     transition-duration: 500ms;
 }
 .single-timeline-area .single-timeline-content .timeline-text p {
-    font-size: 2vh;
+    font-size: 1.8vh;
     margin-bottom: 0;
-}
-
-.single-timeline-area .single-timeline-content:hover .timeline-icon,
-.single-timeline-area .single-timeline-content:focus .timeline-icon {
-    background-color: #020710;
-}
-.single-timeline-area .single-timeline-content:hover .timeline-text h6,
-.single-timeline-area .single-timeline-content:focus .timeline-text h6 {
-    color: #3f43fd;
 }
 
 .text-section{
@@ -1495,9 +1445,9 @@ h4{
 
 .number{
     position: absolute;
-    right: 1.5vh;
-    font-size: 16.52vh;
-    bottom: 10%;
+    right: 6vh;
+    font-size: 13vh !important;
+    bottom: 2vh;
     background: -webkit-linear-gradient(#acc0ae, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1506,9 +1456,9 @@ h4{
 
 .number-2{
     position: absolute;
-    right: 0vh;
-    font-size: 16.52vh;
-    bottom: 40%;
+    right: 6vh;
+    font-size: 14vh;
+    bottom: 10vh;
     background: -webkit-linear-gradient(#acc0ae, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
