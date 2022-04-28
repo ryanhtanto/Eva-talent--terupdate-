@@ -281,7 +281,7 @@ ScrollTrigger.create({
   animation: pelacakan,
   trigger: "#pelacakan",
   scrub:1,
-  start: "10% top",
+  start: "7% top",
   end: "+=2000",
   snap: 1/5,
   pin:true,
@@ -387,7 +387,7 @@ ScrollTrigger.create({
   trigger: "#ai-suggestion-new",
   scrub:1,
   snap: 1/5,
-  start: "15% top",
+  start: "16% top",
   end: "+=3000",
   pin:true,
 });

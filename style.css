@@ -691,14 +691,7 @@ h4{
     height: 60%;
     bottom:-110px;
 }
-/* .masking3{
-    position: absolute;
-    z-index: 20;
-    background-color: red;
-    width: 42%;
-    height: 50%;
-    bottom:-419px;
-} */
+
 .masking4{
     position: absolute;
     z-index: 12;
@@ -905,6 +898,7 @@ h4{
     margin-left: 1.5vh;
     margin-top: 0.5vh;
     height: 75vh;
+    border: solid;
 }
 
 #quadrant{
@@ -1066,6 +1060,7 @@ h4{
 #ai-suggestion-new .anim-kiri-after img{
     width: 8.264vh !important;
     height: 8.264vh !important;
+    margin-top: 1vh;
 }
 
 .progress{
@@ -1121,6 +1116,15 @@ h4{
     border-radius: 1.652vh !important;
     width: 46.28vh;
 }
+
+#ai-suggestion-new .bg2{
+    position: absolute;
+    width: 49vh;
+    height: 54vh;
+    margin-left: -47vh;
+    margin-top: 1vh;
+}
+
     /* david */
     #ai-suggestion-new .img-ai{
         width: 35vh;
@@ -1134,6 +1138,11 @@ h4{
         position: absolute;
         margin-left: -5vh;
         margin-bottom: 2vh;
+    }
+
+    #ai-suggestion-new .bg2-david{
+        margin-left: 0vh;
+
     }
     /* end david */
 
@@ -1155,30 +1164,24 @@ h4{
     /* END TIMOTHY */
 
 
-/* fransisca */
+    /* fransisca */
+    #ai-suggestion-new .img-ai-5{
+        width: 35vh;
+        position: absolute;
+        margin-left: -39vh;
+        margin-top: -1vh;
+    }
 
-#ai-suggestion-new .img-ai-5{
-    width: 35vh;
-    position: absolute;
-    margin-left: -39vh;
-    margin-top: -1vh;
-}
+    #ai-suggestion-new .img-ai-2{
+        width: 33vh;
+        position: absolute;
+        margin-left: -39vh;
+        margin-top: -1vh;
+    }
+    /* end fransisca */
 
-#ai-suggestion-new .img-ai-2{
-    width: 33vh;
-    position: absolute;
-    margin-left: -39vh;
-    margin-top: -1vh;
-}
-
-#ai-suggestion-new .bg2{
-    position: absolute;
-    width: 49vh;
-    height: 54vh;
-    margin-left: -47vh;
-    margin-top: 1vh;
-}
-/* end fransisca */
+   
+    
 
 
 #ai-suggestion-new .card-talent h4{
@@ -1199,7 +1202,7 @@ h4{
     position: absolute;
     z-index: 3;
     background-color: #e2e8f0;
-    width: 53.88vh;
+    width: 58.88vh;
     height: 70.248vh;
     margin-bottom: 2vh;
 }
@@ -2826,6 +2829,10 @@ footer p{
     #section3-4 .slider img {
         width: 1400px !important;
     }
+
+    /* #pelacakan .mask6{
+        width: 50.5vh;
+    } */
 
     @keyframes marquee3 {
         0% {
