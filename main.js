@@ -382,16 +382,27 @@ horizontal.from(".anim-kiri-after", 1, { opacity:0, x: "-130vh", stagger:0.1, du
 // .to(".anim-kanan-after", 1, { opacity:1, x: "0vh", stagger:0.1, duration: 1 , delay: 4}, 4)
 .to("#myBar", 1, {width: "100%", duration: 1, delay:4}, 4);
 
-ScrollTrigger.create({
-  animation: horizontal,
-  trigger: "#ai-suggestion-new",
-  scrub:1,
-  snap: 1/5,
-  start: "16% top",
-  end: "+=3000",
-  pin:true,
-});
-
+if(window.innerWidth < 1337){
+  ScrollTrigger.create({
+    animation: horizontal,
+    trigger: "#ai-suggestion-new",
+    scrub:1,
+    snap: 1/5,
+    start: "16% top",
+    end: "+=3000",
+    pin:true,
+  });
+}else{
+  ScrollTrigger.create({
+    animation: horizontal,
+    trigger: "#ai-suggestion-new",
+    scrub:1,
+    snap: 1/5,
+    start: "13% top",
+    end: "+=3000",
+    pin:true,
+  });
+}
 
 
 

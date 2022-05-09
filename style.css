@@ -64,6 +64,11 @@ h4{
              -1.15vh -1.15vh 1.818vh #ffffff;
 }
 
+.shadow-neo-sm{
+    box-shadow:  0.5vh 0.5vh 1.8vh #bcbcbc,
+             -0.5vh -0.5vh 1vh #ffffff;
+}
+
 .orange-text{
     color: #ffc107;
 }
