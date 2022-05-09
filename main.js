@@ -62,7 +62,7 @@ gsap.to("#section1-1 .random0 .kart", {
     start: "-10%",
     scrub: true
   }, 
-});
+}); 
 
 gsap.to("#section1-1 .random0 .bgorang , #section1-1 .random0 .mask2", {
   yPercent: -100,
