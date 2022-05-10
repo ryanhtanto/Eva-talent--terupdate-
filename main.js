@@ -380,7 +380,12 @@ horizontal.from(".anim-kiri-after", 1, { opacity:0, x: "-130vh", stagger:0.1, du
 .to(".progress-bar-2", 1, {width: "75%", duration: 1, delay: 5}, 4)
 .to(".progress-bar-3", 1, {width: "60%", duration: 1, delay: 5}, 4)
 .to(".progress-bar-4", 1, {width: "50%", duration: 1, delay: 5}, 4)
-.from(".anim-kanan-after", 1, { opacity:0, x: "100vh", stagger:0.1, duration: 1 , delay: 4}, 4)
+.from(".anim-kanan-after", 1, { opacity:0, x: "100vh", stagger:0.1, duration: 1 , delay: 4, onComplete: function() {
+  $('body').css('overflow-y','hidden')
+  setTimeout(function(){
+      $('body').css('overflow-y','scroll')
+  }, 2500)
+}}, 4)
 // .to(".anim-kanan-after", 1, { opacity:1, x: "0vh", stagger:0.1, duration: 1 , delay: 4}, 4)
 .to("#myBar", 1, {width: "100%", duration: 1, delay:4}, 4);
 
