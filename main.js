@@ -346,6 +346,8 @@ pindah.to(".card-change-color-2", {backgroundColor:'#ff8066'});
 const horizontal = gsap.timeline();
 horizontal.to("#ai-suggestion-new .mask7", 1, { delay: 0.5, scaleY: 0, transformOrigin: "top bottom", duration: 1}, 0)
 .to("#ai-suggestion-new .people", 1, { scale: 1, transformOrigin: "center bottom", duration: 3 }, 0)
+horizontal.to("#ai-suggestion-new .mask8", 1, { delay: 0.5, scaleY: 0, transformOrigin: "top bottom", duration: 1}, 0)
+.to("#ai-suggestion-new .people", 1, { scale: 1, transformOrigin: "center bottom", duration: 3 }, 0)
 // .to("#ai-suggestion-new .bg1", 1, { scale: 1, transformOrigin: "center bottom", duration: 3 }, 0)
 .to("#myBar", 1, {width: "15%", duration: 1}, 0)
 .to(".circlebar", {opacity: 1, scale: 1, duration: 1}, 0);

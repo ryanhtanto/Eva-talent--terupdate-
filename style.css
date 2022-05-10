@@ -1147,6 +1147,10 @@ h4{
     width: 46.28vh;
 }
 
+#ai-suggestion-new .card-talent-tengah{
+    margin-top: 5vh;
+}
+
 #ai-suggestion-new .bg2{
     position: absolute;
     width: 49vh;
@@ -1157,14 +1161,14 @@ h4{
 
     /* david */
     #ai-suggestion-new .img-ai{
-        width: 35vh;
+        width: 37vh;
         position: absolute;
         margin-left: -1vh;
         margin-bottom: 2vh;
     }
 
     #ai-suggestion-new .img-ai-6{
-        width: 38vh;
+        width: 39vh;
         position: absolute;
         margin-left: -5vh;
         margin-bottom: 2vh;
@@ -1179,34 +1183,34 @@ h4{
 
     /* TIMOTHY */
     #ai-suggestion-new .img-ai-3{
-        width: 35vh;
+        width: 38vh;
         position: absolute;
         margin-left: -40vh;
-        margin-top: 4.2vh;
+        margin-top: -0.5vh;
     }
     
     #ai-suggestion-new .img-ai-4{
-        width: 31vh;
+        width: 33vh;
         position: absolute;
         margin-left: -36vh;
-        margin-top: 3vh;
+        margin-top: -0.5vh;
     }
     /* END TIMOTHY */
 
 
     /* fransisca */
     #ai-suggestion-new .img-ai-5{
-        width: 36vh;
+        width: 39vh;
         position: absolute;
         margin-left: -39vh;
-        margin-top: 2.5vh;
+        margin-top: -2vh;
     }
 
     #ai-suggestion-new .img-ai-2{
-        width: 33vh;
+        width: 36vh;
         position: absolute;
         margin-left: -39vh;
-        margin-top: 4.8vh;
+        margin-top: -0.5vh;
     }
     /* end fransisca */
 
@@ -1234,6 +1238,15 @@ h4{
     background-color: #e2e8f0;
     width: 58.88vh;
     height: 70.248vh;
+    margin-bottom: 2vh;
+}
+
+#ai-suggestion-new .mask8{
+    position: absolute;
+    z-index: 3;
+    background-color: #e2e8f0;
+    width: 58.88vh;
+    height: 75.248vh;
     margin-bottom: 2vh;
 }
 
