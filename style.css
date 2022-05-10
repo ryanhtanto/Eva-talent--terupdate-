@@ -1150,7 +1150,7 @@ h4{
 #ai-suggestion-new .bg2{
     position: absolute;
     width: 49vh;
-    height: 54vh;
+    height: 60vh;
     margin-left: -47vh;
     margin-top: 1vh;
 }
@@ -1164,7 +1164,7 @@ h4{
     }
 
     #ai-suggestion-new .img-ai-6{
-        width: 35vh;
+        width: 38vh;
         position: absolute;
         margin-left: -5vh;
         margin-bottom: 2vh;
@@ -1182,31 +1182,31 @@ h4{
         width: 35vh;
         position: absolute;
         margin-left: -40vh;
-        margin-bottom: 2vh
+        margin-top: 4.2vh;
     }
     
     #ai-suggestion-new .img-ai-4{
-        width: 29vh;
+        width: 31vh;
         position: absolute;
         margin-left: -36vh;
-        margin-top: 1vh;
+        margin-top: 3vh;
     }
     /* END TIMOTHY */
 
 
     /* fransisca */
     #ai-suggestion-new .img-ai-5{
-        width: 35vh;
+        width: 36vh;
         position: absolute;
         margin-left: -39vh;
-        margin-top: -1vh;
+        margin-top: 2.5vh;
     }
 
     #ai-suggestion-new .img-ai-2{
         width: 33vh;
         position: absolute;
         margin-left: -39vh;
-        margin-top: -1vh;
+        margin-top: 4.8vh;
     }
     /* end fransisca */
 
@@ -1215,17 +1215,17 @@ h4{
 
 
 #ai-suggestion-new .card-talent h4{
-    font-size: 3.966vh !important;
+    font-size: 3vh !important;
 }
 
 #ai-suggestion-new .card-talent h6{
-    font-size: 2.6446vh;
+    font-size: 2vh;
 }
 
 #ai-suggestion-new .bg1{
     /* position: absolute; */
     width: 44vh;
-    height: 55vh;
+    height: 60vh;
 }
 
 #ai-suggestion-new .mask7{
