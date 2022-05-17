@@ -1414,6 +1414,7 @@ h4{
     width: 280px;
     height: 66px;
     border: none;
+    transition: 0.5s;
 }
   
 .solusibtn:hover {

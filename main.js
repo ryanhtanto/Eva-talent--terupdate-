@@ -75,36 +75,14 @@ gsap.to("#section1-1 .random0 .bgorang , #section1-1 .random0 .mask2", {
   }, 
 });
 
-gsap.to("#section1-1 .random0 .eva , #section1-1 .random0 .mask1 , #section1-1 .random0 .mask3", {
-  yPercent: -300,
+gsap.to("#section1-1 .random0 .col1", {
+  yPercent: -100,
   ease: "none",
   scrollTrigger: {
     trigger: "#section1-1 .random0",
     pin:"#section1-1 .random0 .row",
     start: "-10%",
     scrub: true
-  }, 
-});
-
-gsap.to("#section1-1 .random0 .parallax", {
-  yPercent: -600,
-  ease: "none",
-  scrollTrigger: {
-    trigger: "#section1-1 .random0",
-    pin:"#section1-1 .random0 .row",
-    start: "-10%",
-    scrub: true
-  }, 
-});
-
-gsap.to("#section1-1 .random0 .solusibtn", {
-  yPercent: -1000,
-  ease: "none",
-  scrollTrigger: {
-    trigger: "#section1-1 .random0",
-    pin:"#section1-1 .random0 .row",
-    start: "-10%",
-    scrub:0.01,
   }, 
 });
 
@@ -141,36 +119,14 @@ gsap.to("#section1-1 .random1 .bgorang , #section1-1 .random1 .mask2", {
   }, 
 });
 
-gsap.to("#section1-1 .random1 .eva , #section1-1 .random1 .mask1 , #section1-1 .random1 .mask3", {
-  yPercent: -300,
+gsap.to("#section1-1 .random1 .col1", {
+  yPercent: -100,
   ease: "none",
   scrollTrigger: {
     trigger: "#section1-1 .random1",
     pin:"#section1-1 .random1 .row",
     start: "-10%",
     scrub: true
-  }, 
-});
-
-gsap.to("#section1-1 .random1 .parallax", {
-  yPercent: -600,
-  ease: "none",
-  scrollTrigger: {
-    trigger: "#section1-1 .random1",
-    pin:"#section1-1 .random1 .row",
-    start: "-10%",
-    scrub: true
-  }, 
-});
-
-gsap.to("#section1-1 .random1 .solusibtn", {
-  yPercent: -1000,
-  ease: "none",
-  scrollTrigger: {
-    trigger: "#section1-1 .random1",
-    pin:"#section1-1 .random1 .row",
-    start: "-10%",
-    scrub:0.01,
   }, 
 });
 
@@ -207,36 +163,14 @@ gsap.to("#section1-1 .random2 .bgorang , #section1-1 .random2 .mask2", {
   }, 
 });
 
-gsap.to("#section1-1 .random2 .eva , #section1-1 .random2 .mask1 , #section1-1 .random2 .mask3", {
-  yPercent: -300,
+gsap.to("#section1-1 .random2 .col1", {
+  yPercent: -100,
   ease: "none",
   scrollTrigger: {
     trigger: "#section1-1 .random2",
     pin:"#section1-1 .random2 .row",
     start: "-10%",
     scrub: true
-  }, 
-});
-
-gsap.to("#section1-1 .random2 .parallax", {
-  yPercent: -600,
-  ease: "none",
-  scrollTrigger: {
-    trigger: "#section1-1 .random2",
-    pin:"#section1-1 .random2 .row",
-    start: "-10%",
-    scrub: true
-  }, 
-});
-
-gsap.to("#section1-1 .random2 .solusibtn", {
-  yPercent: -1000,
-  ease: "none",
-  scrollTrigger: {
-    trigger: "#section1-1 .random2",
-    pin:"#section1-1 .random2 .row",
-    start: "-10%",
-    scrub:0.01,
   }, 
 });
 
