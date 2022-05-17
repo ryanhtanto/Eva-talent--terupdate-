@@ -18,7 +18,7 @@ section{
     --warna1: #edf2f7;
     --warna2: #ffcf54;
     --warna3: #ffdf99;
-    --warna4: #2b2b29;;
+    --warna4: #2b2b29;
     --warna5: #e2e8f0;
     --warna6: #2d3748;
     --warna7: #fbfbfb;
@@ -308,6 +308,11 @@ h4{
     width: 280px;
     height: 66px;
     border: none;
+    transition: 0.5s;
+}
+
+#section1-1 .solusibtn:hover {
+    background-color: #ffa600;
 }
 
 #section1-1 .container,
