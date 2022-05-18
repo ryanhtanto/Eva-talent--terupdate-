@@ -416,6 +416,24 @@ document.querySelector('#nav .first-button').addEventListener('click', function 
 /*random content setiap refresh*/       
 $(".random"+(new Date().getTime() % 3)).css("display", "block");
 
+/*smooth scroll*/
+$(".target0").click(function() {
+  $('html, body').animate({
+    scrollTop: $("#target0").offset().top - 70
+  }, 1500);
+});
+
+$(".target1").click(function() {
+  $('html, body').animate({
+    scrollTop: $("#target1").offset().top - 70
+  }, 1500);
+});
+
+$(".target2").click(function() {
+  $('html, body').animate({
+    scrollTop: $("#target2").offset().top - 70
+  }, 1500);
+});
 
 // leaderboard section
   const leaderboardCard = gsap.timeline();
