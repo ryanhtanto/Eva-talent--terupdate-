@@ -394,18 +394,15 @@ h4{
     object-fit: contain;
 }
 
+
 #section1-1 .mask1 {
     position: absolute;
     z-index: 4;
     background-color: var(--warna5);
-    width: 26vw;
-    height: 35%;
+    width: 39vw;
+    height: 22vw;
 }
 
-#section1-1 .mask1-2 {
-    margin-top: 30px;
-    height: 20%;
-}
 
 #section1-1 .mask2 {
     position: absolute;
@@ -2166,11 +2163,6 @@ footer p{
     }
 
     #section1-1 .mask1 {
-        position: absolute;
-        z-index: 4;
-        background-color: var(--warna5);
-        width: 39vw;
-        height: 35%;
         margin-top: -150px;
     }
 
