@@ -321,7 +321,7 @@ horizontal.from(".anim-kiri-after", 1, { opacity:0, x: "-130vh", stagger:0.1, du
   }, 2500)
 }}, 4)
 // .to(".anim-kanan-after", 1, { opacity:1, x: "0vh", stagger:0.1, duration: 1 , delay: 4}, 4)
-.to("#myBar", 1, {width: "100%", duration: 1, delay:4}, 4);
+.to("#myBar", 1, {width: "100%", duration: 1, delay:6}, 4);
 
 if(window.innerWidth < 1337){
   ScrollTrigger.create({
