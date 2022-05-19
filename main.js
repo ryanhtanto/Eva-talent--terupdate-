@@ -234,16 +234,7 @@ pindah3 = gsap.timeline({
   },
 });
 
-pindah = gsap.timeline({
-  scrollTrigger: {
-    trigger: "#quadrant",
-    pin: true,
-    scrub: 1,
-    start: "8% top",
-    end: "+=2800",
-    // markers:true,
-  },
-});
+const pindah = gsap.timeline();
 
 pindah3.to(".pop-up-1", { scale: 0, transformOrigin: "center", duration: 1, delay: 0.7 });
 pindah3.to(".pop-up-1", { scale: 1, transformOrigin: "center", duration: 2, delay: 1.2, display: "block" });
@@ -275,6 +266,17 @@ if(window.innerWidth < 1337){
 }
 pindah.to(".card-change-color-2", {backgroundColor:'#ff8066'});
 pindah.to(".card-change-color-2", {backgroundColor:'#ff8066'});
+
+ScrollTrigger.create({
+  animation: pindah,
+  trigger: "#quadrant",
+  pin: true,
+  scrub: 1,
+  start: "8% top",
+  snap: 1/6,
+  end: "+=2800",
+  // markers:true,
+});
 
 /*section horizontal scroll (ai suggestion + skill overview)*/
 const horizontal = gsap.timeline();
