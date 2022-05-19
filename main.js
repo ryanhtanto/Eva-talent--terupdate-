@@ -241,8 +241,8 @@ pindah3.to(".pop-up-1", { scale: 1, transformOrigin: "center", duration: 2, dela
 pindah3.to(".pop-up-2", { scale: 0, transformOrigin: "center", duration: 1, delay: 0.7 });
 pindah3.to(".pop-up-2", { scale: 1, transformOrigin: "center", duration: 1, delay: 1.2, display: "block" });
 pindah.to(".percent-change-1", {duration: 2, delay: 5, text : "48%"});
-pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "50%", color: '#fed25e'});
-pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "55%", color: '#fed25e'});
+// pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "50%", color: '#fed25e'});
+// pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "55%", color: '#fed25e'});
 pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "60%", color: '#fed25e'});
 pindah.to(".percent-change-1", {duration: 2, delay: 2, text : "67%", color: '#fed25e'});
 pindah.to(".card-pindah-1", {x: "-110%", duration: 5});
@@ -255,10 +255,10 @@ pindah.to(".pop-up-1", { duration: 5, delay: 0.7, zIndex: -1});
 pindah.to(".pop-up-1", { scale: 1, transformOrigin: "center", duration: 1, delay: 0.7 });
 pindah.to(".pop-up-2", { duration: 5, delay: 0.7, zIndex: 5});
 pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "88%", color: '#388ba6'});
-pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "83%", color: '#388ba6'});
-pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "74%", color: '#388ba6'});
-pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "65%", color: '#fed25e'});
-pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "51%", color: '#fed25e'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "70%", color: '#388ba6'});
+pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "50%", color: '#388ba6'});
+// pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "65%", color: '#fed25e'});
+// pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "51%", color: '#fed25e'});
 pindah.to(".percent-change-2", {duration: 2, delay: 1.2, text : "42%", color: '#ff8066'});
 pindah.to(".card-pindah-2", {x: "333%", duration: 5});
 if(window.innerWidth < 1337){
