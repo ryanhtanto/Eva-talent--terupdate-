@@ -1037,6 +1037,7 @@ h4{
 #ai-suggestion-new{
     background-color: #e2e8f0;
     height: 150vh;
+    box-shadow: #e2e8f0 0px 10px;
 }
 
 /* #ai-suggestion-new .tengah {
