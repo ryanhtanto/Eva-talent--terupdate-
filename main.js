@@ -417,6 +417,7 @@ document.querySelector('#nav .first-button').addEventListener('click', function 
 $(".random"+(new Date().getTime() % 3)).css("display", "block");
 
 /*smooth scroll*/
+
 $(".target0").click(function() {
   $('html, body').animate({
     scrollTop: $("#target0").offset().top - 70
@@ -433,6 +434,16 @@ $(".target2").click(function() {
   $('html, body').animate({
     scrollTop: $("#target2").offset().top - 70
   }, 1500);
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
 });
 
 // leaderboard section
